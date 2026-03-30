@@ -6,27 +6,243 @@
     "currency": "SGD",
     "supported": true,
     "filter": "locations=Korea",
-    "collected": "2026-03-30T11:22:05.734Z",
-    "totalProducts": 3357,
-    "totalSellers": 755,
+    "collected": "2026-03-30T11:53:10.043Z",
+    "totalProducts": 40310,
+    "totalSellers": 1635,
     "categories": {
       "big": [
         [
+          "Home & Living",
+          5170
+        ],
+        [
+          "Women's Apparel",
+          4051
+        ],
+        [
+          "Sports & Outdoors",
+          3546
+        ],
+        [
+          "Jewellery & Accessories",
+          3528
+        ],
+        [
           "Beauty & Personal Care",
-          3357
+          3342
+        ],
+        [
+          "Women's Bags",
+          2629
+        ],
+        [
+          "Hobbies & Books",
+          2446
+        ],
+        [
+          "Toys, Kids & Babies",
+          2442
+        ],
+        [
+          "Food & Beverages",
+          2139
+        ],
+        [
+          "Health & Wellness",
+          1946
+        ],
+        [
+          "Kids Fashion",
+          1631
+        ],
+        [
+          "Men's Wear",
+          1563
+        ],
+        [
+          "Mobile & Gadgets",
+          1065
+        ],
+        [
+          "Home Appliances",
+          958
+        ],
+        [
+          "Computers & Peripherals",
+          914
+        ],
+        [
+          "Cameras & Drones",
+          654
+        ],
+        [
+          "Pet Supplies",
+          637
+        ],
+        [
+          "Watches",
+          546
+        ],
+        [
+          "Men's Bags",
+          504
+        ],
+        [
+          "Women's Shoes",
+          360
+        ],
+        [
+          "Video Games",
+          239
         ]
       ],
       "mid": [
         [
+          "Others",
+          1352
+        ],
+        [
+          "Backpacks",
+          619
+        ],
+        [
+          "Housekeeping",
+          558
+        ],
+        [
+          "Tops",
+          500
+        ],
+        [
+          "Music, Movies & Games",
+          500
+        ],
+        [
+          "Home Organisation",
+          500
+        ],
+        [
+          "Tools, DIY & Outdoors",
+          500
+        ],
+        [
+          "Outdoor Activities",
+          500
+        ],
+        [
+          "Home Decor",
+          500
+        ],
+        [
+          "Hats & Caps",
+          500
+        ],
+        [
+          "Eyewear",
+          500
+        ],
+        [
+          "Toys",
+          500
+        ],
+        [
+          "Key Chains",
+          500
+        ],
+        [
+          "Sling Bags",
+          500
+        ],
+        [
+          "Fine Jewellery",
+          500
+        ],
+        [
+          "Books",
+          500
+        ],
+        [
+          "Hairwear",
+          500
+        ],
+        [
+          "Figures & Model Kits",
+          500
+        ],
+        [
+          "Wallets & Cardholders",
+          500
+        ],
+        [
+          "Bag Accessories",
+          500
+        ],
+        [
+          "Watches Accessories",
+          500
+        ],
+        [
+          "Feeding & Nursing",
+          499
+        ],
+        [
+          "Lingerie & Sleepwear",
+          499
+        ],
+        [
+          "Medical Supplies",
+          499
+        ],
+        [
+          "Stationery & Supplies",
+          499
+        ],
+        [
+          "Women Sports Attire & Shoes",
+          499
+        ],
+        [
+          "Socks & Tights",
+          499
+        ],
+        [
+          "Aromatherapy",
+          499
+        ],
+        [
+          "Kids Apparel",
+          499
+        ],
+        [
+          "Pet Accessories",
+          499
+        ],
+        [
           "Feminine Care",
           499
+        ],
+        [
+          "Fitness Equipment",
+          499
+        ],
+        [
+          "Snacks & Sweets",
+          498
         ],
         [
           "Nails",
           498
         ],
         [
-          "Beauty Devices & Tools",
+          "Outerwear",
+          498
+        ],
+        [
+          "Card & Board Games",
+          497
+        ],
+        [
+          "T-Shirts",
           497
         ],
         [
@@ -38,28 +254,476 @@
           495
         ],
         [
+          "Small Kitchen Appliances",
+          495
+        ],
+        [
+          "Beverages",
+          494
+        ],
+        [
+          "Supplements",
+          490
+        ],
+        [
+          "Beauty Devices & Tools",
+          482
+        ],
+        [
+          "Food Staples",
+          480
+        ],
+        [
+          "Kitchen & Dining",
+          479
+        ],
+        [
+          "Kids Bags & Accessories",
+          479
+        ],
+        [
+          "Handbags",
+          476
+        ],
+        [
+          "Bath & Baby Care",
+          474
+        ],
+        [
+          "Bathroom",
+          469
+        ],
+        [
+          "Recovery & Protection",
+          465
+        ],
+        [
           "Makeup",
           462
         ],
         [
-          "Others",
-          286
+          "Beddings",
+          459
+        ],
+        [
+          "Pants & Leggings",
+          452
+        ],
+        [
+          "Computer Accessories",
+          446
+        ],
+        [
+          "Camera Accessories",
+          445
+        ],
+        [
+          "Curve & Plus Size",
+          440
+        ],
+        [
+          "Mobile Accessories",
+          430
+        ],
+        [
+          "Fashion Jewellery",
+          383
+        ],
+        [
+          "Sneakers",
+          360
+        ],
+        [
+          "Lighting",
+          353
+        ],
+        [
+          "Bakery",
+          353
+        ],
+        [
+          "Sweaters & Cardigans",
+          342
+        ],
+        [
+          "Sports Bags",
+          341
+        ],
+        [
+          "Baby & Toddler Apparel",
+          340
+        ],
+        [
+          "Collectibles",
+          335
+        ],
+        [
+          "Skirts",
+          323
+        ],
+        [
+          "Men Sports Attire & Shoes",
+          303
+        ],
+        [
+          "Baby & Kids Shoes",
+          300
+        ],
+        [
+          "Baby Gear",
+          295
+        ],
+        [
+          "Catering",
+          284
+        ],
+        [
+          "Keyboard & Mice",
+          271
+        ],
+        [
+          "Accessories",
+          270
+        ],
+        [
+          "Crossbody & Shoulder Bags",
+          269
+        ],
+        [
+          "Fishing",
+          240
+        ],
+        [
+          "Shorts",
+          240
+        ],
+        [
+          "Video Games",
+          239
+        ],
+        [
+          "Maternity Care",
+          217
+        ],
+        [
+          "Digital Wearables",
+          213
+        ],
+        [
+          "Dresses",
+          207
+        ],
+        [
+          "OTC Medications",
+          206
+        ],
+        [
+          "Security & Surveillance",
+          206
+        ],
+        [
+          "Swimming & Snorkelling",
+          204
+        ],
+        [
+          "Gadgets",
+          196
+        ],
+        [
+          "Denim",
+          177
+        ],
+        [
+          "Cycling",
+          172
+        ],
+        [
+          "Shorts & Bermudas",
+          171
+        ],
+        [
+          "Instant & Film Cameras",
+          161
+        ],
+        [
+          "Tools & Small Appliances",
+          157
+        ],
+        [
+          "Diapers & Potties",
+          154
+        ],
+        [
+          "Shirts",
+          147
+        ],
+        [
+          "Scarves & Gloves",
+          142
+        ],
+        [
+          "Printers & Imaging",
+          141
+        ],
+        [
+          "Food Nutrition",
+          134
+        ],
+        [
+          "Furniture",
+          120
+        ],
+        [
+          "Pants",
+          120
+        ],
+        [
+          "Jeans",
+          120
+        ],
+        [
+          "Audio",
+          120
+        ],
+        [
+          "Jackets & Coats",
+          119
+        ],
+        [
+          "Matching sets",
+          109
+        ],
+        [
+          "Yoga Equipment",
+          102
+        ],
+        [
+          "Cooling & Heating",
+          101
+        ],
+        [
+          "Baby Safety",
+          101
+        ],
+        [
+          "Men's Wallet",
+          97
+        ],
+        [
+          "Jewellery Accessories",
+          86
+        ],
+        [
+          "Team Sports Equipment",
+          60
+        ],
+        [
+          "Gift Sets",
+          60
+        ],
+        [
+          "Garment Care",
+          60
+        ],
+        [
+          "Clutches & Mini Bags",
+          60
+        ],
+        [
+          "Pet Grooming & Hygiene",
+          59
+        ],
+        [
+          "Kid's Furniture",
+          59
+        ],
+        [
+          "Large Appliances",
+          59
+        ],
+        [
+          "Mobile Phones & Tablets",
+          53
         ],
         [
           "Skincare",
           51
         ],
         [
+          "Beauty Supplements",
+          51
+        ],
+        [
+          "Racket Sports Equipment",
+          46
+        ],
+        [
           "Bath & Body",
           44
+        ],
+        [
+          "Weight Management",
+          43
+        ],
+        [
+          "Memory Cards",
+          41
+        ],
+        [
+          "Pet Healthcare",
+          40
+        ],
+        [
+          "Women's Watches",
+          37
+        ],
+        [
+          "Digital Cameras",
+          35
+        ],
+        [
+          "Jumpsuits & Playsuits",
+          35
+        ],
+        [
+          "Sports Nutrition",
+          34
+        ],
+        [
+          "Underwear",
+          33
+        ],
+        [
+          "Belts",
+          32
+        ],
+        [
+          "Beachwear",
+          31
+        ],
+        [
+          "Networking",
+          29
+        ],
+        [
+          "Dairy, Eggs & Chilled Food",
+          26
+        ],
+        [
+          "Milk Formula (1 year+)",
+          26
         ],
         [
           "Women's Hair Care",
           25
         ],
         [
+          "Entertainment",
+          25
+        ],
+        [
+          "Music Instruments",
+          23
+        ],
+        [
+          "Boxing & Martial Arts Equipment",
+          18
+        ],
+        [
+          "Occasion wear",
+          17
+        ],
+        [
+          "Sexual Wellness",
+          17
+        ],
+        [
+          "Components",
+          13
+        ],
+        [
+          "Totes",
+          13
+        ],
+        [
+          "Muslim Wear",
+          13
+        ],
+        [
+          "Infant Milk Formula",
+          12
+        ],
+        [
+          "Traditional Wear",
+          9
+        ],
+        [
+          "Unisex Watches",
+          8
+        ],
+        [
+          "Action & Video Cameras",
+          7
+        ],
+        [
+          "Storage",
+          7
+        ],
+        [
+          "Scooters & Hoverboards",
+          7
+        ],
+        [
+          "Surveillance Cameras",
+          6
+        ],
+        [
+          "Senior Care",
+          6
+        ],
+        [
+          "Men's Jewellery",
+          6
+        ],
+        [
+          "Maternity Wear",
+          4
+        ],
+        [
           "Fragrances",
           4
+        ],
+        [
+          "Monitors",
+          2
+        ],
+        [
+          "Laptops",
+          2
+        ],
+        [
+          "Branded Bags",
+          2
+        ],
+        [
+          "Occasion Wear",
+          1
+        ],
+        [
+          "Overseas Sim Cards",
+          1
+        ],
+        [
+          "TV Accessories",
+          1
+        ],
+        [
+          "Briefcases",
+          1
+        ],
+        [
+          "Couple Sets",
+          1
         ]
       ]
     }
