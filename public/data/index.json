@@ -1454,12 +1454,12 @@
     }
   },
   "tw": {
-    "updated": "2026-04-01T18:14:00.750Z",
-    "version": "v6-emergency",
-    "totalProducts": 0,
-    "totalSellers": 0,
-    "totalRevenue": 0,
-    "totalSold": 0
+    "updated": "2026-04-02T06:17:45.060Z",
+    "version": "v6.1",
+    "totalProducts": 40226,
+    "totalSellers": 412,
+    "totalRevenue": 1099773073,
+    "totalSold": 2142543
   },
   "my": {
     "country": "my",
