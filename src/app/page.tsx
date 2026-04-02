@@ -27,17 +27,8 @@ const COUNTRIES = [
   { code: 'mx', name: 'Mexico', flag: '🇲🇽' },
 ];
 
-// 현지통화 → KRW 환율 (2026-04 기준, 대략적)
 const KRW_RATES: Record<string, number> = {
-  SGD: 1080,
-  MYR: 330,
-  THB: 42,
-  PHP: 25,
-  TWD: 45,
-  VND: 0.058,
-  BRL: 250,
-  MXN: 75,
-  KRW: 1,
+  SGD: 1080, MYR: 330, THB: 42, PHP: 25, TWD: 45, VND: 0.058, BRL: 250, MXN: 75, KRW: 1,
 };
 
 function toKRW(amount: number, currency: string): string {
@@ -52,8 +43,7 @@ function toKRW(amount: number, currency: string): string {
 function imgUrl(key: string, country: string) {
   if (!key) return '';
   if (key.startsWith('http')) return key;
-  const cc =
-    country === 'tw' ? 'tw' : country === 'my' ? 'my' : country === 'th' ? 'th' :
+  const cc = country === 'tw' ? 'tw' : country === 'my' ? 'my' : country === 'th' ? 'th' :
     country === 'vn' ? 'vn' : country === 'ph' ? 'ph' : country === 'br' ? 'br' :
     country === 'mx' ? 'mx' : 'sg';
   return `https://down-${cc}.img.susercontent.com/file/${key}`;
@@ -62,8 +52,7 @@ function imgUrl(key: string, country: string) {
 function sellerThumbUrl(key: string, country: string) {
   if (!key) return '';
   if (key.startsWith('http')) return key;
-  const cc =
-    country === 'tw' ? 'tw' : country === 'my' ? 'my' : country === 'th' ? 'th' :
+  const cc = country === 'tw' ? 'tw' : country === 'my' ? 'my' : country === 'th' ? 'th' :
     country === 'vn' ? 'vn' : country === 'ph' ? 'ph' : country === 'br' ? 'br' :
     country === 'mx' ? 'mx' : 'sg';
   const id = key.replace(/_tn$/, '');
@@ -88,48 +77,32 @@ export default function Home() {
   const [page, setPage] = useState(0);
   const pageSize = 200;
 
+  // SG는 hist 필드가 있으므로 월 판매 가능, 나머지는 누적
+  const isMonthly = activeCountry === 'sg';
+  const soldLabel = isMonthly ? '/월' : '누적';
+  const revLabel = isMonthly ? '월 예상 매출' : '누적 예상 매출';
+
   useEffect(() => {
     setLoading(true);
-    setProducts([]);
-    setMeta(null);
-    setCatBig('');
-    setCatMid('');
-    setCatSmall('');
-    setSearch('');
-    setPage(0);
+    setProducts([]); setMeta(null);
+    setCatBig(''); setCatMid(''); setCatSmall('');
+    setSearch(''); setPage(0);
     fetch(`/data/${activeCountry}.json`)
-      .then(r => {
-        if (!r.ok) throw new Error('no data');
-        return r.json();
-      })
-      .then(data => {
-        setProducts(data.products || []);
-        setMeta(data.meta || null);
-        setLoading(false);
-      })
-      .catch(() => {
-        setProducts([]);
-        setMeta(null);
-        setLoading(false);
-      });
+      .then(r => { if (!r.ok) throw new Error('no data'); return r.json(); })
+      .then(data => { setProducts(data.products || []); setMeta(data.meta || null); setLoading(false); })
+      .catch(() => { setProducts([]); setMeta(null); setLoading(false); });
   }, [activeCountry]);
 
   const bigCats = useMemo(() => {
     const map: Record<string, number> = {};
-    products.forEach(p => {
-      const k = p.catBig || '기타';
-      map[k] = (map[k] || 0) + 1;
-    });
+    products.forEach(p => { const k = p.catBig || '기타'; map[k] = (map[k] || 0) + 1; });
     return Object.entries(map).sort((a, b) => b[1] - a[1]);
   }, [products]);
 
   const midCats = useMemo(() => {
     const filtered = catBig ? products.filter(p => p.catBig === catBig) : products;
     const map: Record<string, number> = {};
-    filtered.forEach(p => {
-      const k = p.catMid || p.cat || '기타';
-      map[k] = (map[k] || 0) + 1;
-    });
+    filtered.forEach(p => { const k = p.catMid || p.cat || '기타'; map[k] = (map[k] || 0) + 1; });
     return Object.entries(map).sort((a, b) => b[1] - a[1]);
   }, [products, catBig]);
 
@@ -138,12 +111,7 @@ export default function Home() {
     if (catBig) filtered = filtered.filter(p => p.catBig === catBig);
     if (catMid) filtered = filtered.filter(p => (p.catMid || p.cat) === catMid);
     const map: Record<string, number> = {};
-    filtered.forEach(p => {
-      const k = p.cat || '';
-      if (k.length > 0) {
-        map[k] = (map[k] || 0) + 1;
-      }
-    });
+    filtered.forEach(p => { const k = p.cat || ''; if (k.length > 0) map[k] = (map[k] || 0) + 1; });
     return Object.entries(map).sort((a, b) => b[1] - a[1]);
   }, [products, catBig, catMid]);
 
@@ -152,9 +120,7 @@ export default function Home() {
     if (search.trim()) {
       const terms = search.toLowerCase().trim().split(/\s+/);
       list = list.filter(p => {
-        const name = (p.nm || '').toLowerCase();
-        const seller = (p.sn || '').toLowerCase();
-        const combined = name + ' ' + seller;
+        const combined = ((p.nm || '') + ' ' + (p.sn || '')).toLowerCase();
         return terms.every(term => combined.includes(term));
       });
     }
@@ -167,7 +133,6 @@ export default function Home() {
     if (showMall === 'exclude') list = list.filter(p => !p.off);
     if (showPref === 'only') list = list.filter(p => p.pref);
     if (showPref === 'exclude') list = list.filter(p => !p.pref);
-
     list = [...list].sort((a, b) => {
       if (sortBy === 'sold') return b.sold - a.sold;
       if (sortBy === 'price') return a.pr - b.pr;
@@ -187,7 +152,6 @@ export default function Home() {
       topItem: { nm: string; sold: number; pr: number; img: string; id: number };
       categories: Record<string, number>;
     }> = {};
-
     products.forEach((p: any) => {
       const keyRaw = p.sid ?? p.sn;
       if (keyRaw === undefined || keyRaw === null || keyRaw === '') return;
@@ -195,39 +159,25 @@ export default function Home() {
       const price = p.pr || p.pMin || 0;
       const sold = p.sold || 0;
       const revenue = price * sold;
-
       if (!map[key]) {
-        map[key] = {
-          sid: p.sid, sn: p.sn || '', off: p.off || false, pref: p.pref || false,
+        map[key] = { sid: p.sid, sn: p.sn || '', off: p.off || false, pref: p.pref || false,
           totalSold: 0, totalRevenue: 0, items: 0,
-          topItem: { nm: p.nm, sold, pr: price, img: p.img, id: p.id },
-          categories: {},
-        };
+          topItem: { nm: p.nm, sold, pr: price, img: p.img, id: p.id }, categories: {} };
       }
       const s = map[key];
-      s.totalSold += sold;
-      s.totalRevenue += revenue;
-      s.items += 1;
-      if (sold > s.topItem.sold) {
-        s.topItem = { nm: p.nm, sold, pr: price, img: p.img, id: p.id };
-      }
+      s.totalSold += sold; s.totalRevenue += revenue; s.items += 1;
+      if (sold > s.topItem.sold) { s.topItem = { nm: p.nm, sold, pr: price, img: p.img, id: p.id }; }
       const cat = p.catBig || p.catMid || '기타';
       s.categories[cat] = (s.categories[cat] || 0) + 1;
     });
-
-    return Object.values(map)
-      .filter(s => s.totalSold > 0)
-      .sort((a, b) => b.totalRevenue - a.totalRevenue);
+    return Object.values(map).filter(s => s.totalSold > 0).sort((a, b) => b.totalRevenue - a.totalRevenue);
   }, [products]);
 
   const filteredSellers = useMemo(() => {
     let list = [...sellerStats];
     if (search.trim()) {
       const terms = search.toLowerCase().trim().split(/\s+/);
-      list = list.filter(s => {
-        const combined = (s.sn || '').toLowerCase();
-        return terms.every(t => combined.includes(t));
-      });
+      list = list.filter(s => terms.every(t => (s.sn || '').toLowerCase().includes(t)));
     }
     if (showMall === 'only') list = list.filter(s => s.off);
     else if (showMall === 'exclude') list = list.filter(s => !s.off);
@@ -250,38 +200,24 @@ export default function Home() {
 
   const downloadJSON = () => {
     const blob = new Blob([JSON.stringify(filtered, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `${activeCountry}_filtered_${filtered.length}.json`;
-    a.click();
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = `${activeCountry}_filtered_${filtered.length}.json`; a.click();
   };
 
   const downloadCSV = () => {
-    const headers = ['rank', 'name', 'price', 'price_krw', 'sold', 'revenue_krw', 'rating', 'reviews', 'seller', 'category_big', 'category_mid', 'category_small', 'url'];
+    const headers = ['rank','name','price','price_krw','sold','sold_type','revenue_krw','rating','reviews','seller','category_big','category_mid','category_small','url'];
     const rows = filtered.map((p, i) => {
       const rate = KRW_RATES[currency] || 1;
-      return [
-        i + 1,
-        `"${(p.nm || '').replace(/"/g, '""')}"`,
-        p.pr,
-        Math.round((p.pr || 0) * rate),
-        p.sold,
-        Math.round((p.pr || 0) * (p.sold || 0) * rate),
-        p.rate?.toFixed(1) || '',
-        p.rv,
-        `"${(p.sn || '').replace(/"/g, '""')}"`,
-        `"${p.catBig || ''}"`,
-        `"${p.catMid || ''}"`,
-        `"${p.cat || ''}"`,
-        `https://${meta?.domain || 'shopee.sg'}/product/${p.sid}/${p.id}`,
-      ];
+      return [i+1, `"${(p.nm||'').replace(/"/g,'""')}"`, p.pr, Math.round((p.pr||0)*rate),
+        p.sold, isMonthly?'monthly':'cumulative', Math.round((p.pr||0)*(p.sold||0)*rate),
+        p.rate?.toFixed(1)||'', p.rv, `"${(p.sn||'').replace(/"/g,'""')}"`,
+        `"${p.catBig||''}"`, `"${p.catMid||''}"`, `"${p.cat||''}"`,
+        `https://${meta?.domain||'shopee.sg'}/product/${p.sid}/${p.id}`];
     });
     const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
-    const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `${activeCountry}_filtered_${filtered.length}.csv`;
-    a.click();
+    const blob = new Blob(['\uFEFF'+csv], {type:'text/csv;charset=utf-8'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = `${activeCountry}_filtered_${filtered.length}.csv`; a.click();
   };
 
   return (
@@ -293,6 +229,7 @@ export default function Home() {
           {meta
             ? `${meta.totalProducts?.toLocaleString() ?? 0}개 | ${meta.totalSellers?.toLocaleString() ?? 0}셀러 | 수집 ${meta.collected ? new Date(meta.collected).toLocaleString('ko-KR') : '-'}`
             : '데이터 없음'}
+          {!isMonthly && <span style={{ color: '#ff6633', marginLeft: 8, fontSize: 12 }}>⚠️ 누적 판매량 기준</span>}
         </p>
       </div>
 
@@ -352,11 +289,11 @@ export default function Home() {
             <select value={String(minSold)} onChange={e => { setMinSold(Number(e.target.value)); setPage(0); }}
               style={{ padding: '8px 12px', borderRadius: 6, border: '1px solid #333', background: '#111', color: '#fff', fontSize: 13 }}>
               <option value="0">전체</option>
-              <option value="10">10+/월</option>
-              <option value="50">50+/월</option>
-              <option value="100">100+/월</option>
-              <option value="500">500+/월</option>
-              <option value="1000">1000+/월</option>
+              <option value="10">10+{soldLabel}</option>
+              <option value="50">50+{soldLabel}</option>
+              <option value="100">100+{soldLabel}</option>
+              <option value="500">500+{soldLabel}</option>
+              <option value="1000">1000+{soldLabel}</option>
             </select>
 
             <select value={sortBy} onChange={e => { setSortBy(e.target.value); setPage(0); }}
@@ -369,22 +306,18 @@ export default function Home() {
             </select>
 
             <button type="button" onClick={toggleMall}
-              style={{
-                padding: '8px 12px', borderRadius: 6, border: 'none', cursor: 'pointer', fontSize: 13,
+              style={{ padding: '8px 12px', borderRadius: 6, border: 'none', cursor: 'pointer', fontSize: 13,
                 background: showMall === 'only' ? '#ff6633' : showMall === 'exclude' ? '#333' : '#1a1a2e',
                 color: showMall === 'all' ? '#888' : '#fff',
-                textDecoration: showMall === 'exclude' ? 'line-through' : 'none',
-              }}>
+                textDecoration: showMall === 'exclude' ? 'line-through' : 'none' }}>
               {showMall === 'only' ? 'Mall직영' : showMall === 'exclude' ? 'Mall제외' : 'Mall 직영'}
             </button>
 
             <button type="button" onClick={togglePref}
-              style={{
-                padding: '8px 12px', borderRadius: 6, border: 'none', cursor: 'pointer', fontSize: 13,
+              style={{ padding: '8px 12px', borderRadius: 6, border: 'none', cursor: 'pointer', fontSize: 13,
                 background: showPref === 'only' ? '#ff6633' : showPref === 'exclude' ? '#333' : '#1a1a2e',
                 color: showPref === 'all' ? '#888' : '#fff',
-                textDecoration: showPref === 'exclude' ? 'line-through' : 'none',
-              }}>
+                textDecoration: showPref === 'exclude' ? 'line-through' : 'none' }}>
               {showPref === 'only' ? 'Preferred' : showPref === 'exclude' ? 'Pref제외' : 'Preferred'}
             </button>
 
@@ -400,19 +333,15 @@ export default function Home() {
 
           <div style={{ display: 'flex', gap: 8, marginBottom: 12, padding: '0 24px' }}>
             <button type="button" onClick={() => { setViewMode('products'); setPage(0); }}
-              style={{
-                padding: '8px 20px', borderRadius: 8, border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 700,
+              style={{ padding: '8px 20px', borderRadius: 8, border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 700,
                 background: viewMode === 'products' ? '#ff6633' : '#1a1a2e',
-                color: viewMode === 'products' ? '#fff' : '#888',
-              }}>
+                color: viewMode === 'products' ? '#fff' : '#888' }}>
               🛍️ 상품별
             </button>
             <button type="button" onClick={() => { setViewMode('sellers'); setPage(0); }}
-              style={{
-                padding: '8px 20px', borderRadius: 8, border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 700,
+              style={{ padding: '8px 20px', borderRadius: 8, border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 700,
                 background: viewMode === 'sellers' ? '#ff6633' : '#1a1a2e',
-                color: viewMode === 'sellers' ? '#fff' : '#888',
-              }}>
+                color: viewMode === 'sellers' ? '#fff' : '#888' }}>
               🏪 셀러별 매출
             </button>
           </div>
@@ -421,7 +350,7 @@ export default function Home() {
             <div style={{ padding: '0 24px 24px' }}>
               <p style={{ color: '#aaa', marginBottom: 12, fontSize: 13 }}>
                 표시 {Math.min((page + 1) * pageSize, filteredSellers.length)} / {filteredSellers.length}개 셀러
-                {' '}| 총 예상 매출 {currency}{' '}
+                {' '}| 총 {revLabel} {currency}{' '}
                 {filteredSellers.reduce((sum, x) => sum + x.totalRevenue, 0).toLocaleString(undefined, { maximumFractionDigits: 0 })}
                 <span style={{ color: '#ff6633', marginLeft: 8 }}>
                   ({toKRW(filteredSellers.reduce((sum, x) => sum + x.totalRevenue, 0), currency)})
@@ -475,7 +404,7 @@ export default function Home() {
                           style={{ fontSize: 12, color: '#aaa', marginBottom: 4, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', cursor: 'pointer' }}
                           title={s.topItem.nm}>
                           🏆 {s.topItem.nm}
-                          <span style={{ color: '#ff6633', marginLeft: 6 }}>({s.topItem.sold.toLocaleString()}/월)</span>
+                          <span style={{ color: '#ff6633', marginLeft: 6 }}>({s.topItem.sold.toLocaleString()}{soldLabel})</span>
                         </div>
                         <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
                           {topCats.map(cat => (
@@ -492,9 +421,9 @@ export default function Home() {
                         <div style={{ fontSize: 13, fontWeight: 700, color: '#ffaa33', marginTop: 1 }}>
                           {toKRW(s.totalRevenue, currency)}
                         </div>
-                        <div style={{ fontSize: 11, color: '#888' }}>월 예상 매출</div>
+                        <div style={{ fontSize: 11, color: '#888' }}>{revLabel}</div>
                         <div style={{ fontSize: 12, color: '#aaa', marginTop: 2 }}>
-                          🔥 {s.totalSold.toLocaleString()}/월 · 📦 {s.items}개 상품
+                          🔥 {s.totalSold.toLocaleString()}{soldLabel} · 📦 {s.items}개 상품
                         </div>
                       </div>
                     </a>
@@ -534,9 +463,7 @@ export default function Home() {
                         position: 'absolute', top: 8, left: 8,
                         background: i === 0 ? '#ff6633' : i === 1 ? '#ff8f00' : '#ff6633',
                         color: '#fff', padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 700, zIndex: 1,
-                      }}>
-                        #{i + 1}
-                      </div>
+                      }}>#{i + 1}</div>
                     )}
                     <div style={{ position: 'absolute', top: 8, right: 8, display: 'flex', gap: 4, zIndex: 1 }}>
                       {p.off && (<span style={{ background: '#c62828', padding: '2px 6px', borderRadius: 4, fontSize: 10 }}>Mall</span>)}
@@ -559,7 +486,7 @@ export default function Home() {
                         {toKRW(p.pr || 0, currency)}
                       </div>
                       <div style={{ marginTop: 4, fontSize: 11, color: '#888' }}>
-                        🔥 {(p.sold || 0).toLocaleString()}/월 | ⭐ {p.rate?.toFixed(1) || '-'}
+                        🔥 {(p.sold || 0).toLocaleString()}{soldLabel} | ⭐ {p.rate?.toFixed(1) || '-'}
                       </div>
                       <div style={{ marginTop: 2, fontSize: 10, color: '#666', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }}>
                         🏪 {p.sn} · 🇰🇷 {p.sl}
