@@ -27,6 +27,28 @@ const COUNTRIES = [
   { code: 'mx', name: 'Mexico', flag: '🇲🇽' },
 ];
 
+// 현지통화 → KRW 환율 (2026-04 기준, 대략적)
+const KRW_RATES: Record<string, number> = {
+  SGD: 1080,
+  MYR: 330,
+  THB: 42,
+  PHP: 25,
+  TWD: 45,
+  VND: 0.058,
+  BRL: 250,
+  MXN: 75,
+  KRW: 1,
+};
+
+function toKRW(amount: number, currency: string): string {
+  const rate = KRW_RATES[currency] || 1;
+  const krw = amount * rate;
+  if (krw >= 100000000) return `₩${(krw / 100000000).toFixed(1)}억`;
+  if (krw >= 10000) return `₩${(krw / 10000).toFixed(0)}만`;
+  if (krw >= 1000) return `₩${(krw / 1000).toFixed(1)}천`;
+  return `₩${Math.round(krw).toLocaleString()}`;
+}
+
 function imgUrl(key: string, country: string) {
   if (!key) return '';
   if (key.startsWith('http')) return key;
@@ -235,20 +257,25 @@ export default function Home() {
   };
 
   const downloadCSV = () => {
-    const headers = ['rank', 'name', 'price', 'sold', 'rating', 'reviews', 'seller', 'category_big', 'category_mid', 'category_small', 'url'];
-    const rows = filtered.map((p, i) => [
-      i + 1,
-      `"${(p.nm || '').replace(/"/g, '""')}"`,
-      p.pr,
-      p.sold,
-      p.rate?.toFixed(1) || '',
-      p.rv,
-      `"${(p.sn || '').replace(/"/g, '""')}"`,
-      `"${p.catBig || ''}"`,
-      `"${p.catMid || ''}"`,
-      `"${p.cat || ''}"`,
-      `https://${meta?.domain || 'shopee.sg'}/product/${p.sid}/${p.id}`,
-    ]);
+    const headers = ['rank', 'name', 'price', 'price_krw', 'sold', 'revenue_krw', 'rating', 'reviews', 'seller', 'category_big', 'category_mid', 'category_small', 'url'];
+    const rows = filtered.map((p, i) => {
+      const rate = KRW_RATES[currency] || 1;
+      return [
+        i + 1,
+        `"${(p.nm || '').replace(/"/g, '""')}"`,
+        p.pr,
+        Math.round((p.pr || 0) * rate),
+        p.sold,
+        Math.round((p.pr || 0) * (p.sold || 0) * rate),
+        p.rate?.toFixed(1) || '',
+        p.rv,
+        `"${(p.sn || '').replace(/"/g, '""')}"`,
+        `"${p.catBig || ''}"`,
+        `"${p.catMid || ''}"`,
+        `"${p.cat || ''}"`,
+        `https://${meta?.domain || 'shopee.sg'}/product/${p.sid}/${p.id}`,
+      ];
+    });
     const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
     const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
     const a = document.createElement('a');
@@ -271,17 +298,13 @@ export default function Home() {
 
       <div style={{ display: 'flex', gap: 4, padding: '0 24px 16px', flexWrap: 'wrap' }}>
         {COUNTRIES.map(c => (
-          <button
-            key={c.code}
-            type="button"
-            onClick={() => setActiveCountry(c.code)}
+          <button key={c.code} type="button" onClick={() => setActiveCountry(c.code)}
             style={{
               padding: '8px 16px', borderRadius: 6, border: 'none', cursor: 'pointer', fontSize: 13,
               background: activeCountry === c.code ? '#ff6633' : '#1a1a2e',
               color: activeCountry === c.code ? '#fff' : '#888',
               fontWeight: activeCountry === c.code ? 700 : 400,
-            }}
-          >
+            }}>
             {c.flag} {c.name}
             {activeCountry === c.code && meta ? ` (${meta.totalProducts?.toLocaleString() ?? 0})` : ''}
           </button>
@@ -297,15 +320,9 @@ export default function Home() {
       ) : (
         <>
           <div style={{ display: 'flex', gap: 8, padding: '0 24px 16px', flexWrap: 'wrap', alignItems: 'center' }}>
-            <input
-              placeholder="상품명, 셀러명..."
-              value={search}
+            <input placeholder="상품명, 셀러명..." value={search}
               onChange={e => { setSearch(e.target.value); setPage(0); }}
-              style={{
-                padding: '8px 12px', borderRadius: 6, border: '1px solid #333',
-                background: '#111', color: '#fff', width: 160, fontSize: 13,
-              }}
-            />
+              style={{ padding: '8px 12px', borderRadius: 6, border: '1px solid #333', background: '#111', color: '#fff', width: 160, fontSize: 13 }} />
 
             <select value={catBig} onChange={e => handleBigChange(e.target.value)}
               style={{ padding: '8px 12px', borderRadius: 6, border: '1px solid #333', background: '#111', color: '#fff', fontSize: 13 }}>
@@ -327,16 +344,10 @@ export default function Home() {
               </select>
             )}
 
-            <input
-              type="number"
-              placeholder={`최소 가격 (${currency})`}
+            <input type="number" placeholder={`최소 가격 (${currency})`}
               value={minPrice || ''}
               onChange={e => { setMinPrice(Number(e.target.value) || 0); setPage(0); }}
-              style={{
-                padding: '8px 12px', borderRadius: 6, border: '1px solid #333',
-                background: '#111', color: '#fff', width: 130, fontSize: 13,
-              }}
-            />
+              style={{ padding: '8px 12px', borderRadius: 6, border: '1px solid #333', background: '#111', color: '#fff', width: 130, fontSize: 13 }} />
 
             <select value={String(minSold)} onChange={e => { setMinSold(Number(e.target.value)); setPage(0); }}
               style={{ padding: '8px 12px', borderRadius: 6, border: '1px solid #333', background: '#111', color: '#fff', fontSize: 13 }}>
@@ -412,6 +423,9 @@ export default function Home() {
                 표시 {Math.min((page + 1) * pageSize, filteredSellers.length)} / {filteredSellers.length}개 셀러
                 {' '}| 총 예상 매출 {currency}{' '}
                 {filteredSellers.reduce((sum, x) => sum + x.totalRevenue, 0).toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                <span style={{ color: '#ff6633', marginLeft: 8 }}>
+                  ({toKRW(filteredSellers.reduce((sum, x) => sum + x.totalRevenue, 0), currency)})
+                </span>
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
@@ -470,10 +484,13 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div style={{ textAlign: 'right', minWidth: 130 }}>
+                      <div style={{ textAlign: 'right', minWidth: 140 }}>
                         <div style={{ fontSize: 18, fontWeight: 800, color: '#ff6633' }}>
                           {currency}{' '}
                           {s.totalRevenue >= 10000 ? `${(s.totalRevenue / 1000).toFixed(0)}K` : s.totalRevenue.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                        </div>
+                        <div style={{ fontSize: 13, fontWeight: 700, color: '#ffaa33', marginTop: 1 }}>
+                          {toKRW(s.totalRevenue, currency)}
                         </div>
                         <div style={{ fontSize: 11, color: '#888' }}>월 예상 매출</div>
                         <div style={{ fontSize: 12, color: '#aaa', marginTop: 2 }}>
@@ -537,6 +554,9 @@ export default function Home() {
                           {currency} {(p.pr || 0).toFixed(2)}
                         </span>
                         {p.disc ? <span style={{ color: '#ff3366', fontSize: 11 }}>-{p.disc}</span> : null}
+                      </div>
+                      <div style={{ marginTop: 2, fontSize: 11, color: '#ffaa33' }}>
+                        {toKRW(p.pr || 0, currency)}
                       </div>
                       <div style={{ marginTop: 4, fontSize: 11, color: '#888' }}>
                         🔥 {(p.sold || 0).toLocaleString()}/월 | ⭐ {p.rate?.toFixed(1) || '-'}
