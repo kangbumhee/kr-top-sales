@@ -1454,12 +1454,774 @@
     }
   },
   "tw": {
-    "updated": "2026-04-02T06:17:45.060Z",
-    "version": "v6.1",
-    "totalProducts": 40226,
-    "totalSellers": 412,
-    "totalRevenue": 1099773073,
-    "totalSold": 2142543
+    "country": "tw",
+    "name": "Taiwan",
+    "domain": "shopee.tw",
+    "currency": "TWD",
+    "flag": "🇹🇼",
+    "collected": "2026-04-14T23:19:48.162Z",
+    "totalProducts": 14615,
+    "totalSellers": 823,
+    "apiCalls": 659,
+    "apiFails": 0,
+    "categories": {
+      "big": [
+        [
+          "女生衣著",
+          7292
+        ],
+        [
+          "書籍及雜誌期刊",
+          2619
+        ],
+        [
+          "男生衣著",
+          2444
+        ],
+        [
+          "居家生活",
+          2260
+        ]
+      ],
+      "mid": [
+        [
+          "其他",
+          1577
+        ],
+        [
+          "T恤",
+          1536
+        ],
+        [
+          "水壺、杯子",
+          1156
+        ],
+        [
+          "居家香氛",
+          1104
+        ],
+        [
+          "內睡衣",
+          1023
+        ],
+        [
+          "長褲",
+          961
+        ],
+        [
+          "漫畫",
+          686
+        ],
+        [
+          "外套",
+          624
+        ],
+        [
+          "帽T/大學T",
+          606
+        ],
+        [
+          "其他書籍",
+          521
+        ],
+        [
+          "針織/毛衣",
+          488
+        ],
+        [
+          "襯衫",
+          455
+        ],
+        [
+          "帽T、大學T",
+          436
+        ],
+        [
+          "大尺碼",
+          434
+        ],
+        [
+          "貼紙、著色書籍",
+          387
+        ],
+        [
+          "短褲",
+          356
+        ],
+        [
+          "小可愛/背心",
+          270
+        ],
+        [
+          "語言學習書籍",
+          263
+        ],
+        [
+          "雜誌期刊",
+          193
+        ],
+        [
+          "丹寧牛仔",
+          186
+        ],
+        [
+          "裙子",
+          168
+        ],
+        [
+          "食譜",
+          160
+        ],
+        [
+          "洋裝",
+          145
+        ],
+        [
+          "文學小說",
+          112
+        ],
+        [
+          "男性內著",
+          108
+        ],
+        [
+          "毛衣、針織衫",
+          97
+        ],
+        [
+          "藝術設計書籍",
+          82
+        ],
+        [
+          "Polo衫",
+          80
+        ],
+        [
+          "生活風格書籍",
+          74
+        ],
+        [
+          "泳裝/比基尼",
+          73
+        ],
+        [
+          "多件式套裝",
+          62
+        ],
+        [
+          "背心",
+          36
+        ],
+        [
+          "求職、自我成長書籍",
+          29
+        ],
+        [
+          "上衣類",
+          28
+        ],
+        [
+          "心理勵志書籍",
+          19
+        ],
+        [
+          "宗教命理書籍",
+          16
+        ],
+        [
+          "旅遊相關書籍",
+          16
+        ],
+        [
+          "教科參考書",
+          14
+        ],
+        [
+          "輕小說",
+          10
+        ],
+        [
+          "歷史人文書籍",
+          8
+        ],
+        [
+          "健身節食書籍",
+          7
+        ],
+        [
+          "親子教養與共讀繪本書籍",
+          3
+        ],
+        [
+          "商業理財書籍",
+          2
+        ],
+        [
+          "自然科普書籍",
+          2
+        ],
+        [
+          "農業、漁業書籍",
+          1
+        ],
+        [
+          "醫療保健書籍",
+          1
+        ]
+      ]
+    },
+    "topSellers": [
+      {
+        "sid": 39579939,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 70446490,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 91433484,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 99591828,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 111163130,
+        "name": "",
+        "items": 66,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 125308669,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 131924862,
+        "name": "",
+        "items": 29,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 161461216,
+        "name": "",
+        "items": 1120,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 198406144,
+        "name": "",
+        "items": 4,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 225135855,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 227321833,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 240760978,
+        "name": "",
+        "items": 11,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 254965528,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 257530343,
+        "name": "",
+        "items": 11,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 258869846,
+        "name": "",
+        "items": 4,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 270351135,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 279916921,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 284717814,
+        "name": "",
+        "items": 7,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 285865545,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 290756984,
+        "name": "",
+        "items": 13,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 292464298,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 293297923,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 295587451,
+        "name": "",
+        "items": 34,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 296290938,
+        "name": "",
+        "items": 252,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 298204644,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 300826015,
+        "name": "",
+        "items": 9,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 300978573,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 300978629,
+        "name": "",
+        "items": 43,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 303331806,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 303428433,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 323916153,
+        "name": "",
+        "items": 7,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 325233423,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 328357943,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 332289699,
+        "name": "",
+        "items": 32,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 338004630,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 339684556,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 339840594,
+        "name": "",
+        "items": 5,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 343489682,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 344560079,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 348538205,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 357831381,
+        "name": "",
+        "items": 59,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 359304553,
+        "name": "",
+        "items": 2,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 359478660,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 361433439,
+        "name": "",
+        "items": 16,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 375786405,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 375792474,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 375792525,
+        "name": "",
+        "items": 6,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 381343271,
+        "name": "",
+        "items": 3,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 381716176,
+        "name": "",
+        "items": 4,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      },
+      {
+        "sid": 382446635,
+        "name": "",
+        "items": 1,
+        "revenue": 0,
+        "sold": 0,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": ""
+      }
+    ]
   },
   "my": {
     "country": "my",
