@@ -1459,118 +1459,78 @@
     "domain": "shopee.tw",
     "currency": "TWD",
     "flag": "🇹🇼",
-    "collected": "2026-04-14T23:19:48.162Z",
-    "totalProducts": 14615,
-    "totalSellers": 823,
-    "apiCalls": 659,
+    "collected": "2026-04-15T04:03:51.977Z",
+    "totalProducts": 8708,
+    "totalSellers": 430,
+    "apiCalls": 389,
     "apiFails": 0,
     "categories": {
       "big": [
         [
           "女生衣著",
-          7292
+          7286
         ],
         [
           "書籍及雜誌期刊",
-          2619
-        ],
-        [
-          "男生衣著",
-          2444
-        ],
-        [
-          "居家生活",
-          2260
+          1422
         ]
       ],
       "mid": [
         [
           "其他",
-          1577
-        ],
-        [
-          "T恤",
-          1536
-        ],
-        [
-          "水壺、杯子",
-          1156
-        ],
-        [
-          "居家香氛",
-          1104
+          1560
         ],
         [
           "內睡衣",
-          1023
+          1020
         ],
         [
-          "長褲",
-          961
+          "T恤",
+          841
         ],
         [
           "漫畫",
           686
         ],
         [
-          "外套",
-          624
+          "長褲",
+          650
         ],
         [
           "帽T/大學T",
           606
         ],
         [
-          "其他書籍",
-          521
-        ],
-        [
           "針織/毛衣",
           488
         ],
         [
-          "襯衫",
-          455
+          "其他書籍",
+          480
         ],
         [
-          "帽T、大學T",
-          436
+          "外套",
+          447
         ],
         [
           "大尺碼",
-          434
+          428
         ],
         [
-          "貼紙、著色書籍",
-          387
-        ],
-        [
-          "短褲",
-          356
+          "襯衫",
+          306
         ],
         [
           "小可愛/背心",
           270
         ],
         [
-          "語言學習書籍",
-          263
-        ],
-        [
-          "雜誌期刊",
+          "短褲",
           193
-        ],
-        [
-          "丹寧牛仔",
-          186
         ],
         [
           "裙子",
           168
-        ],
-        [
-          "食譜",
-          160
         ],
         [
           "洋裝",
@@ -1578,27 +1538,7 @@
         ],
         [
           "文學小說",
-          112
-        ],
-        [
-          "男性內著",
-          108
-        ],
-        [
-          "毛衣、針織衫",
-          97
-        ],
-        [
-          "藝術設計書籍",
-          82
-        ],
-        [
-          "Polo衫",
-          80
-        ],
-        [
-          "生活風格書籍",
-          74
+          106
         ],
         [
           "泳裝/比基尼",
@@ -1606,23 +1546,23 @@
         ],
         [
           "多件式套裝",
-          62
+          63
         ],
         [
-          "背心",
-          36
-        ],
-        [
-          "求職、自我成長書籍",
-          29
+          "生活風格書籍",
+          60
         ],
         [
           "上衣類",
           28
         ],
         [
+          "求職、自我成長書籍",
+          25
+        ],
+        [
           "心理勵志書籍",
-          19
+          18
         ],
         [
           "宗教命理書籍",
@@ -1630,596 +1570,568 @@
         ],
         [
           "旅遊相關書籍",
-          16
+          15
         ],
         [
           "教科參考書",
           14
         ],
         [
-          "輕小說",
-          10
-        ],
-        [
-          "歷史人文書籍",
-          8
-        ],
-        [
-          "健身節食書籍",
-          7
-        ],
-        [
-          "親子教養與共讀繪本書籍",
-          3
-        ],
-        [
           "商業理財書籍",
           2
-        ],
-        [
-          "自然科普書籍",
-          2
-        ],
-        [
-          "農業、漁業書籍",
-          1
-        ],
-        [
-          "醫療保健書籍",
-          1
         ]
       ]
     },
     "topSellers": [
       {
-        "sid": 39579939,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 850180309,
+        "name": "verish_official.tw",
+        "items": 38,
+        "revenue": 2299357,
+        "sold": 2105,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "【Cool-Fit｜集中】 Verish輕量豐胸無鋼圈內衣"
       },
       {
-        "sid": 70446490,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "sid": 472206435,
+        "name": "WHO.A.U Official",
+        "items": 258,
+        "revenue": 505365,
+        "sold": 503,
+        "avgUpload": 0.3,
+        "off": true,
         "pref": false,
-        "top": ""
+        "top": "[WHO.A.U] 2 件裝 Steve Head Patch T 恤 | Whraf2352u"
       },
       {
-        "sid": 91433484,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "sid": 1237220319,
+        "name": "niceghostclub Korea Store",
+        "items": 105,
+        "revenue": 376583,
+        "sold": 311,
+        "avgUpload": 0.2,
+        "off": true,
         "pref": false,
-        "top": ""
+        "top": "[niceghostclub] 動漫明星TEE_韓風"
       },
       {
-        "sid": 99591828,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 712099790,
+        "name": "korean azoomatw",
+        "items": 30,
+        "revenue": 306168,
+        "sold": 261,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "Juuneedu 韓國 睡衣品牌 居家小物 長袖 短袖 一塊 小熊 睡衣 套裝 上衣 褲子"
       },
       {
-        "sid": 111163130,
-        "name": "",
-        "items": 66,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "sid": 706163308,
+        "name": "MAHAGRID Official Store 台灣官方旗艦店",
+        "items": 79,
+        "revenue": 141298,
+        "sold": 147,
+        "avgUpload": 0.1,
+        "off": true,
         "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 125308669,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 131924862,
-        "name": "",
-        "items": 29,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
+        "top": "[MAHAGRID] 奇怪的小狗圖案 T 恤_Unisex_Korean style"
       },
       {
         "sid": 161461216,
-        "name": "",
-        "items": 1120,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "name": "COVERNAT_official",
+        "items": 419,
+        "revenue": 138935,
+        "sold": 85,
+        "avgUpload": 0.4,
+        "off": true,
         "pref": false,
-        "top": ""
+        "top": "[COVERNAT]25SS 無袖美式t 工字背心 男女同款 夏季吸汗透氣圓領無袖T恤（多色任選）"
       },
       {
-        "sid": 198406144,
-        "name": "",
-        "items": 4,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1331201842,
+        "name": "S&B KOREA TW",
+        "items": 131,
+        "revenue": 111002,
+        "sold": 116,
+        "avgUpload": 0.2,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[verish] CHAK CHAK 文胸全罩"
       },
       {
-        "sid": 225135855,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 486957422,
+        "name": "SewingDoing 韓國直送 版權布 印花布 棉布料 專賣店",
+        "items": 1416,
+        "revenue": 105970,
+        "sold": 666,
+        "avgUpload": 0.8,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "韓國布 止滑布 防滑布 矽膠顆粒 硅膠塗層 聚酯纖維 Non-Slip Polyester"
       },
       {
-        "sid": 227321833,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 987167191,
+        "name": "Y&C 韓國代購",
+        "items": 99,
+        "revenue": 74315,
+        "sold": 65,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "韓國直郵✈️ MUCENT BONA SIGNATURE STRIPE SHIRTS 條紋襯衫 長袖"
       },
       {
-        "sid": 240760978,
-        "name": "",
-        "items": 11,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "sid": 1457363792,
+        "name": "RONRON TAIWAN",
+        "items": 87,
+        "revenue": 68150,
+        "sold": 35,
+        "avgUpload": 0.2,
+        "off": true,
         "pref": false,
-        "top": ""
+        "top": "[RONRON] DOUBLE RIBBON SLIM CROP 修身短款T 恤 / 4色任選 韓國"
       },
       {
-        "sid": 254965528,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1233764733,
+        "name": "soralandet",
+        "items": 171,
+        "revenue": 63020,
+        "sold": 58,
+        "avgUpload": 0.2,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[MARDI MERCREDI] T 恤 FLOWERMARDI JARDIN_9color"
       },
       {
-        "sid": 257530343,
-        "name": "",
-        "items": 11,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 992103116,
+        "name": "DANBI.zb",
+        "items": 302,
+        "revenue": 45364,
+        "sold": 39,
+        "avgUpload": 0.3,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[MARDI Mercredi] 修身 T 恤 FLOWERMARDI_3color / 100% "
       },
       {
-        "sid": 258869846,
-        "name": "",
-        "items": 4,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1168018591,
+        "name": "ML – My Life, My Line 韓國選物 \t",
+        "items": 264,
+        "revenue": 45169,
+        "sold": 19,
+        "avgUpload": 1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "ML2 國家地理索倫娜酷心標誌半版T恤 N262UTS902 K-FASHION"
       },
       {
-        "sid": 270351135,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1659859395,
+        "name": "Next Chapter Korea ☀️",
+        "items": 276,
+        "revenue": 43284,
+        "sold": 13,
+        "avgUpload": 1.7,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "KODAK NC1柯達洗雪圖案短袖T恤 K6222LRS11 DAILY BASIC"
       },
       {
-        "sid": 279916921,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
+        "sid": 1737616739,
+        "name": "Dunst",
+        "items": 97,
+        "revenue": 42335,
+        "sold": 8,
+        "avgUpload": 1.9,
+        "off": true,
         "pref": false,
-        "top": ""
+        "top": "[Dunst]中性風皮标装饰半拉链卫衣_UDTS6A107"
       },
       {
-        "sid": 284717814,
-        "name": "",
-        "items": 7,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1313673471,
+        "name": "UrbanGem.kz",
+        "items": 244,
+        "revenue": 42089,
+        "sold": 31,
+        "avgUpload": 0.6,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "BLUECITY 棉混紡保暖抓絨緊身褲彈力緊身褲連褲襪 3 型"
       },
       {
-        "sid": 285865545,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 980457453,
+        "name": "K-style goods",
+        "items": 367,
+        "revenue": 40867,
+        "sold": 57,
+        "avgUpload": 0.4,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[韓國版] 東京外星人 Vol.11 首刷限定版 (韓文版 日漫 漫畫 東京エイリアンズ 特典 NA"
       },
       {
-        "sid": 290756984,
-        "name": "",
-        "items": 13,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1041005658,
+        "name": "stl.tw",
+        "items": 72,
+        "revenue": 38817,
+        "sold": 61,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[限量銷售] STL 韓國瑜伽新鮮縐紗完美背心 1+1 | 任意選擇 2 種顏色 | 活動銷售"
       },
       {
-        "sid": 292464298,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1192891143,
+        "name": "AMES-WORLDWIDE.tw",
+        "items": 101,
+        "revenue": 35875,
+        "sold": 26,
+        "avgUpload": 0.3,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[AMES] 基本款LOGO TEE_韓風"
       },
       {
-        "sid": 293297923,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 776586090,
+        "name": "seouloppa1",
+        "items": 256,
+        "revenue": 27778,
+        "sold": 22,
+        "avgUpload": 0.2,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "韓國【MUCENT】VIOLA單肩不平衡閃光T/ITZY RYUJIN挑100%正品"
       },
       {
-        "sid": 295587451,
-        "name": "",
-        "items": 34,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 765094759,
+        "name": "declenkr4u.tw",
+        "items": 278,
+        "revenue": 25034,
+        "sold": 42,
+        "avgUpload": 0.2,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "The Best of Yiruma 李閏珉最佳精選鋼琴譜"
+      },
+      {
+        "sid": 655129991,
+        "name": "modumoduwa",
+        "items": 173,
+        "revenue": 24375,
+        "sold": 33,
+        "avgUpload": 0.2,
+        "off": false,
+        "pref": false,
+        "top": "[韓國] YIRUMA THE BEST/ Billboard Piano Scores (原版/簡"
+      },
+      {
+        "sid": 404385391,
+        "name": "_yulshop",
+        "items": 366,
+        "revenue": 21075,
+        "sold": 31,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "The Shape Of Sympathy, 韓語網卡通, 韓文原文書"
+      },
+      {
+        "sid": 1093080523,
+        "name": "DA-ON SISTER",
+        "items": 61,
+        "revenue": 19157,
+        "sold": 21,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[MUCENT] Sunny Lace V領長袖T恤(3色)韓國100%正品"
+      },
+      {
+        "sid": 1175281860,
+        "name": "CITYBREEZE 官方旗艦店",
+        "items": 90,
+        "revenue": 17673,
+        "sold": 11,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "CITYBREEZE 經典LOGO涼感棉質上衣 黑色 蔡秀彬同款"
+      },
+      {
+        "sid": 1639753060,
+        "name": "- 韓國優選購物 Korea LuxBox 🎁 -",
+        "items": 77,
+        "revenue": 12561,
+        "sold": 7,
+        "avgUpload": 0.4,
+        "off": false,
+        "pref": false,
+        "top": "【雪峰】Snow Peak 女款 涼感 快乾 顯瘦 短版 短袖 T恤 潮流 山系 S26MWF-TS"
       },
       {
         "sid": 296290938,
-        "name": "",
-        "items": 252,
-        "revenue": 0,
-        "sold": 0,
+        "name": "hi_seoul",
+        "items": 71,
+        "revenue": 11035,
+        "sold": 22,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[KOREA COMIC] 無根之樹 A Tree Without Root BL , LENZHI"
+      },
+      {
+        "sid": 1721109426,
+        "name": "SIEME",
+        "items": 74,
+        "revenue": 9906,
+        "sold": 6,
+        "avgUpload": 0.8,
+        "off": false,
+        "pref": false,
+        "top": "MARITHÉ / FRAN OIS / GIRBAUD 經典標誌棉 T 恤"
+      },
+      {
+        "sid": 111163130,
+        "name": "NOTAG",
+        "items": 51,
+        "revenue": 9027,
+        "sold": 11,
+        "avgUpload": 0.1,
+        "off": true,
+        "pref": false,
+        "top": "CONCHWEAR 百搭簡約運動上衣 12色"
+      },
+      {
+        "sid": 290756984,
+        "name": "歐巴💂‍♀️韓國代購。",
+        "items": 11,
+        "revenue": 8550,
+        "sold": 2,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "歐爸👦🏻韓國代購 [ HONDA ] Track Zip up Jacket 擋風衣 防風衣 ("
       },
       {
-        "sid": 298204644,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 1401288900,
+        "name": "summerstore1010.tw",
+        "items": 76,
+        "revenue": 8210,
+        "sold": 8,
+        "avgUpload": 0.2,
+        "off": false,
+        "pref": false,
+        "top": "JUUNEEDU 100% 純棉 aleute 蕾絲睡衣套裝 2 款(短袖套裝/連衣裙) 韓國現貨"
+      },
+      {
+        "sid": 1010443168,
+        "name": "k_delightful_store.tw",
+        "items": 22,
+        "revenue": 7464,
+        "sold": 6,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "🇰🇷 韓國 Mucent 短版 針織 拉鍊外套 Orchid Crop Knit Zip-Up "
       },
       {
-        "sid": 300826015,
-        "name": "",
-        "items": 9,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 1026946782,
+        "name": "YOONS_KOREA.TW",
+        "items": 26,
+        "revenue": 7087,
+        "sold": 7,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "[DOSSY] 真絲合身長袖睡衣套裝/中性/家居服/情侶睡衣"
+      },
+      {
+        "sid": 1459547763,
+        "name": "anstudiodl",
+        "items": 15,
+        "revenue": 5794,
+        "sold": 3,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "ROLAROLA 單肩條紋羊毛混紡開衫(黑色/灰色/藍色)"
+      },
+      {
+        "sid": 1332042338,
+        "name": "unnimarketch",
+        "items": 24,
+        "revenue": 5664,
+        "sold": 4,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[DOSSY] 韓式睡衣 Fluffy 超柔保暖 絨毛睡衣 冬季睡衣 睡衣套裝 睡衣女 睡衣男 情侶"
       },
       {
-        "sid": 300978573,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 1532791345,
+        "name": "riniyeonicp",
+        "items": 10,
+        "revenue": 5442,
+        "sold": 7,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "韓版休閒韓服 Jeogori 風格情侶背心上衣男女通用日常傳統服飾 7 色"
       },
       {
-        "sid": 300978629,
-        "name": "",
-        "items": 43,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 303331806,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 303428433,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 323916153,
-        "name": "",
-        "items": 7,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 325233423,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 328357943,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 332289699,
-        "name": "",
+        "sid": 1676666219,
+        "name": "seoul_eonnie2",
         "items": 32,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "revenue": 5187,
+        "sold": 2,
+        "avgUpload": 1.1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "歐爸👦🏻韓國姐姐 [rolarola] 張員瑛同款 LAYERED KNIT CARDIGAN "
       },
       {
-        "sid": 338004630,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 1511109453,
+        "name": "erubyco.tw",
+        "items": 22,
+        "revenue": 5111,
+        "sold": 13,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "STL Fresh Light Holiday Box 無袖上衣"
       },
       {
-        "sid": 339684556,
-        "name": "",
-        "items": 2,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
+        "sid": 910425933,
+        "name": "Ggang Shop",
+        "items": 94,
+        "revenue": 4894,
+        "sold": 4,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "(明天發貨) 正品 MARDI MERCREDI | 韓國直銷女裝【獨家】TSHIRT FLOWER"
       },
       {
-        "sid": 339840594,
-        "name": "",
+        "sid": 1524758069,
+        "name": "realkorea",
         "items": 5,
-        "revenue": 0,
-        "sold": 0,
+        "revenue": 4310,
+        "sold": 2,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "Wiggle Wiggle 連帽睡衣套裝,4 種設計"
       },
       {
-        "sid": 343489682,
-        "name": "",
+        "sid": 1054846821,
+        "name": "J-Look Korea Authentic Store",
+        "items": 30,
+        "revenue": 3975,
+        "sold": 3,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[PRIMATE] NN 女性合身T恤 5色) / 韓國直送"
+      },
+      {
+        "sid": 753207805,
+        "name": "One Click To Korea",
+        "items": 3,
+        "revenue": 3914,
+        "sold": 4,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "VERISH Boom Up Push Up Bra LIGHT Comfort Support 柔"
+      },
+      {
+        "sid": 1170260521,
+        "name": "sunnyside10",
+        "items": 7,
+        "revenue": 3856,
+        "sold": 3,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "[ANDAR] Airywin Wide Pants (Maxi Wide Legging) (SH"
+      },
+      {
+        "sid": 848471414,
+        "name": "ksendym3.tw",
         "items": 2,
-        "revenue": 0,
-        "sold": 0,
+        "revenue": 3582,
+        "sold": 6,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "PLAVE Caged Blossoms Vol.3 논중화물 VOL.3 ( K-POP)"
       },
       {
-        "sid": 344560079,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 495421813,
+        "name": "麥Channelshop_tw",
+        "items": 4,
+        "revenue": 3520,
+        "sold": 1,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "💙麥Channel_Shop💙韓國品牌代購 F"
       },
       {
-        "sid": 348538205,
-        "name": "",
+        "sid": 1451120808,
+        "name": "AllForYou_Korea",
         "items": 2,
-        "revenue": 0,
-        "sold": 0,
+        "revenue": 3518,
+        "sold": 1,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "[MLB] 2026 KARINA EDITION VOL.2 服裝系列連帽衫和 T 恤"
       },
       {
-        "sid": 357831381,
-        "name": "",
-        "items": 59,
-        "revenue": 0,
-        "sold": 0,
+        "sid": 1608406388,
+        "name": "Kmaeum Select",
+        "items": 12,
+        "revenue": 3274,
+        "sold": 1,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[WIGGLE WIGGLE] 毛圈睡衣套裝(短)帶小袋/可愛小熊設計"
+      },
+      {
+        "sid": 647723507,
+        "name": "Pick For You",
+        "items": 8,
+        "revenue": 3160,
+        "sold": 3,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "三麗鷗 SPAO x Sanrio韓國睡衣Kitty Melody Kulomi家居睡衣家居服SPP"
+      },
+      {
+        "sid": 890266135,
+        "name": "All4UU.tw",
+        "items": 2,
+        "revenue": 3120,
+        "sold": 8,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
+        "top": "【現貨供應】鋼琴樂譜禮物書套裝 - 惡魔獵手電影 K-POPOST | 鋼琴譜為惡魔獵手團隊而寫 |"
       },
       {
         "sid": 359304553,
-        "name": "",
+        "name": "K LOVE PUNCH",
         "items": 2,
-        "revenue": 0,
-        "sold": 0,
+        "revenue": 3099,
+        "sold": 1,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 359478660,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 361433439,
-        "name": "",
-        "items": 16,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 375786405,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 375792474,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 375792525,
-        "name": "",
-        "items": 6,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 381343271,
-        "name": "",
-        "items": 3,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 381716176,
-        "name": "",
-        "items": 4,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
-      },
-      {
-        "sid": 382446635,
-        "name": "",
-        "items": 1,
-        "revenue": 0,
-        "sold": 0,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": ""
+        "top": "🇰🇷 Seoul National University - SNU 校服夾克 校隊夾克 New"
       }
     ]
   },
