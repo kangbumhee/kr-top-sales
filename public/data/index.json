@@ -1459,12 +1459,12 @@
     "domain": "shopee.tw",
     "currency": "TWD",
     "flag": "🇹🇼",
-    "collected": "2026-04-16T15:55:44.897Z",
-    "totalProducts": 40270,
-    "totalSellers": 1800,
-    "apiCalls": 1423,
+    "collected": "2026-04-16T17:53:44.949Z",
+    "totalProducts": 43383,
+    "totalSellers": 1896,
+    "apiCalls": 1526,
     "apiFails": 0,
-    "categoriesCovered": "154/297",
+    "categoriesCovered": "161/297",
     "categories": {
       "big": [
         [
@@ -1472,12 +1472,12 @@
           10797
         ],
         [
-          "女生衣著",
-          7286
+          "美妝保養",
+          8344
         ],
         [
-          "美妝保養",
-          6662
+          "女生衣著",
+          7286
         ],
         [
           "女生配件/黃金",
@@ -1494,6 +1494,10 @@
         [
           "男生衣著",
           2443
+        ],
+        [
+          "保健、護理",
+          1431
         ],
         [
           "男女鞋",
@@ -1514,12 +1518,12 @@
       ],
       "mid": [
         [
-          "餐廚",
-          1938
+          "其他",
+          2093
         ],
         [
-          "其他",
-          1694
+          "餐廚",
+          1938
         ],
         [
           "T恤",
@@ -1590,6 +1594,10 @@
           853
         ],
         [
+          "綜合機能保健",
+          814
+        ],
+        [
           "醫美清潔保養",
           794
         ],
@@ -1610,6 +1618,10 @@
           624
         ],
         [
+          "其他保健食品、營養品",
+          617
+        ],
+        [
           "帽T/大學T",
           606
         ],
@@ -1624,14 +1636,6 @@
         [
           "眼鏡",
           579
-        ],
-        [
-          "五金修繕",
-          541
-        ],
-        [
-          "女休閒鞋/平底鞋",
-          541
         ]
       ]
     },
@@ -1639,26 +1643,34 @@
       {
         "sid": 519453926,
         "name": "OBgE台灣旗艦店|韓國直送",
-        "items": 36,
-        "revenue": 4423708,
-        "sold": 7055,
+        "items": 41,
+        "revenue": 4538933,
+        "sold": 7116,
         "top": "[OBgE] 茶樹控油去黑頭清潔棒 ⚾品牌大使 瘦子 E.SO & 李多慧⚾"
       },
       {
         "sid": 881779791,
         "name": "KMartU",
-        "items": 43,
-        "revenue": 3870370,
-        "sold": 4759,
+        "items": 48,
+        "revenue": 3950994,
+        "sold": 4919,
         "top": "Renecell 所有產品 / 最佳系列"
       },
       {
         "sid": 1001256306,
         "name": "1plus1mallkv",
-        "items": 40,
-        "revenue": 3754738,
-        "sold": 4569,
+        "items": 42,
+        "revenue": 3761575,
+        "sold": 4612,
         "top": "潤妮秀 Renecell  韓國最佳系列最優惠價格"
+      },
+      {
+        "sid": 615877803,
+        "name": "GAOGAO BEAUTY 韓國美妝專賣店",
+        "items": 42,
+        "revenue": 3474752,
+        "sold": 1353,
+        "top": "CAVIEXO 魚子提取物 奢華系列化妝水棉片 60張"
       },
       {
         "sid": 545141727,
@@ -1667,14 +1679,6 @@
         "revenue": 3019644,
         "sold": 2126,
         "top": "Numbuzin 5號 穀胱甘肽C瑕疵橡皮擦安瓶 DUO 30ml + 30ml"
-      },
-      {
-        "sid": 615877803,
-        "name": "GAOGAO BEAUTY 韓國美妝專賣店",
-        "items": 22,
-        "revenue": 2919197,
-        "sold": 1080,
-        "top": "CAVIEXO 魚子提取物 奢華系列化妝水棉片 60張"
       },
       {
         "sid": 1031744434,
@@ -1703,47 +1707,47 @@
       {
         "sid": 1023354525,
         "name": "super_deal.tw",
-        "items": 19,
-        "revenue": 2013371,
-        "sold": 1810,
+        "items": 20,
+        "revenue": 2016719,
+        "sold": 1822,
         "top": "Foodaholic 舒緩面膜保濕/面膜/日常護膚品"
       },
       {
         "sid": 381343271,
         "name": "beautiseoul",
-        "items": 152,
+        "items": 154,
         "revenue": 1847346,
         "sold": 6699,
         "top": "韓國 MEDIHEAL 面膜 1枚 積雪草 茶樹 膠原蛋白 玻尿酸 神經醯胺 維生素 玫瑰PDRN"
       },
       {
-        "sid": 455367652,
-        "name": "Koppas Shop",
-        "items": 74,
-        "revenue": 1745736,
-        "sold": 1657,
-        "top": "2025 力曼 INCELLDERM 映晳美 兩相油霧 50ml 維頓油霧 油水平衡噴霧"
-      },
-      {
         "sid": 985100261,
         "name": "H'ar 官方旗艦店",
-        "items": 15,
-        "revenue": 1724401,
-        "sold": 1644,
+        "items": 16,
+        "revenue": 1778769,
+        "sold": 1676,
         "top": "[H’ar 韓國官方] Dr. Ran 天然蛋白滋養洗髮精 500ml_髮絲強韌 蓬鬆 蛋白質護髮 韓國洗髮精"
+      },
+      {
+        "sid": 455367652,
+        "name": "Koppas Shop",
+        "items": 90,
+        "revenue": 1772786,
+        "sold": 1675,
+        "top": "2025 力曼 INCELLDERM 映晳美 兩相油霧 50ml 維頓油霧 油水平衡噴霧"
       },
       {
         "sid": 1370697857,
         "name": "Arencia 愛仁溪雅 官方旗艦店",
-        "items": 31,
-        "revenue": 1540980,
-        "sold": 3898,
+        "items": 32,
+        "revenue": 1570800,
+        "sold": 3928,
         "top": "[0元加購] 潔面乳 15g | 綠色、玫瑰果、藍色 hyssop | 綠色 50g"
       },
       {
         "sid": 1525497849,
         "name": "gloryving",
-        "items": 26,
+        "items": 28,
         "revenue": 1499997,
         "sold": 3,
         "top": "(韓國發貨) 榮耀隨機禮物"
@@ -1751,10 +1755,18 @@
       {
         "sid": 734200999,
         "name": "Pearl & Garnet Shop",
-        "items": 61,
-        "revenue": 1158872,
-        "sold": 2848,
+        "items": 95,
+        "revenue": 1368842,
+        "sold": 3405,
         "top": "現貨 Round Lab 白樺樹防曬 水分精華防曬 / 水分提亮膚色防曬霜 50ml SPF50+PA++++"
+      },
+      {
+        "sid": 745542436,
+        "name": "market_centre",
+        "items": 85,
+        "revenue": 1223387,
+        "sold": 2552,
+        "top": "Renecell Renecell 終極護膚系列 所有產品構成"
       },
       {
         "sid": 1748425610,
@@ -1781,12 +1793,12 @@
         "top": "[niceghostclub] 3star Logo 拉鍊連帽衫_帽踢_男女共穿_韓國風格"
       },
       {
-        "sid": 745542436,
-        "name": "market_centre",
-        "items": 65,
-        "revenue": 972715,
-        "sold": 2103,
-        "top": "Renecell Renecell 終極護膚系列 所有產品構成"
+        "sid": 739713542,
+        "name": "BEAUTY LOOK",
+        "items": 102,
+        "revenue": 902346,
+        "sold": 3303,
+        "top": "OLIVEYOUNG代購 MEDIHEAL 美迪惠爾必備面膜 積雪草 茶樹 膠原蛋白 玫瑰 韓國直送"
       },
       {
         "sid": 1201259391,
@@ -1797,12 +1809,28 @@
         "top": "[Beauty of Joseon] 大米萃取潤澤防曬霜 SPF50+ PA++++ (50ml)"
       },
       {
-        "sid": 739713542,
-        "name": "BEAUTY LOOK",
-        "items": 87,
-        "revenue": 827509,
-        "sold": 2915,
-        "top": "OLIVEYOUNG代購 MEDIHEAL 美迪惠爾必備面膜 積雪草 茶樹 膠原蛋白 玫瑰 韓國直送"
+        "sid": 1437735105,
+        "name": "wellpeak",
+        "items": 57,
+        "revenue": 829218,
+        "sold": 2407,
+        "top": "艾多美 防曬霜 60ml : Atomy Sunscreen"
+      },
+      {
+        "sid": 638774568,
+        "name": "make_urday",
+        "items": 65,
+        "revenue": 827041,
+        "sold": 1525,
+        "top": "[Foodology] Talksology Cleanse Vium Pro 50ml"
+      },
+      {
+        "sid": 1536623398,
+        "name": "SeasonTree",
+        "items": 81,
+        "revenue": 753101,
+        "sold": 2397,
+        "top": "[MEDION] Lacto Remedy 女性私密護理凝膠 2.0｜10入｜日常溫和清爽保養"
       },
       {
         "sid": 800592212,
@@ -1821,20 +1849,12 @@
         "top": "[FULLY Official] 綠番茄潔膚泥膜 120ml"
       },
       {
-        "sid": 1437735105,
-        "name": "wellpeak",
-        "items": 50,
-        "revenue": 680608,
-        "sold": 2311,
-        "top": "艾多美 防曬霜 60ml : Atomy Sunscreen"
-      },
-      {
-        "sid": 638774568,
-        "name": "make_urday",
-        "items": 43,
-        "revenue": 671694,
-        "sold": 1267,
-        "top": "[Foodology] Talksology Cleanse Vium Pro 50ml"
+        "sid": 343489682,
+        "name": "KOKO.kr",
+        "items": 72,
+        "revenue": 677285,
+        "sold": 1750,
+        "top": "DONG-A Acnon 13g / Aclean 20g / Noscarna 10 20g with FREEBIE"
       },
       {
         "sid": 1726247970,
@@ -1847,17 +1867,17 @@
       {
         "sid": 712099790,
         "name": "korean azoomatw",
-        "items": 92,
-        "revenue": 634466,
-        "sold": 1379,
+        "items": 93,
+        "revenue": 635031,
+        "sold": 1380,
         "top": "韓國 Hetras 芒果籽黃油保濕護手霜 香氛護手霜 香氛護手霜 護手乳 50ml 護手霜擠牙膏器 Kitty 凱蒂貓"
       },
       {
         "sid": 219162204,
         "name": "JULYME 品牌官方旗艦店",
-        "items": 13,
-        "revenue": 614290,
-        "sold": 502,
+        "items": 15,
+        "revenue": 615080,
+        "sold": 503,
         "top": "[JULYME韓國] 洗護油4件組 (洗髮精+護髮素+護髮膜+護髮油)"
       },
       {
@@ -1869,6 +1889,14 @@
         "top": "VODANA Glam Wave 大捲電棒 32/36/40mm 韓系捲髮器 捲髮棒"
       },
       {
+        "sid": 276532583,
+        "name": "MTS KOREA",
+        "items": 36,
+        "revenue": 587706,
+        "sold": 900,
+        "top": "艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"
+      },
+      {
         "sid": 472206435,
         "name": "WHO.A.U Official",
         "items": 315,
@@ -1877,19 +1905,11 @@
         "top": "[WHO.A.U] 2 件裝 Steve Head Patch T 恤 | Whraf2352u"
       },
       {
-        "sid": 343489682,
-        "name": "KOKO.kr",
-        "items": 59,
-        "revenue": 535590,
-        "sold": 1186,
-        "top": "DR.ALTHEA 147 隔離霜 / 345 舒緩霜 50ml 含贈品"
-      },
-      {
         "sid": 1652698001,
         "name": "从韩国到台湾",
-        "items": 8,
-        "revenue": 488715,
-        "sold": 804,
+        "items": 9,
+        "revenue": 504927,
+        "sold": 832,
         "top": "[ANUA] 煙酰胺 10 + txa4 30ml 精華"
       },
       {
@@ -1909,12 +1929,12 @@
         "top": "【Dr.Rejuall】(PD3 2件裝) PDRN 煥顏修護霜 20ml x2 l 敏感肌適用・修護精華"
       },
       {
-        "sid": 1536623398,
-        "name": "SeasonTree",
-        "items": 65,
-        "revenue": 469926,
-        "sold": 1904,
-        "top": "[Too Cool For School] 新款 臥蠶專用眼線筆 雙頭設計 下眼線打底 眼瞼下至 眼線膠筆"
+        "sid": 857110170,
+        "name": "pinklove.tw",
+        "items": 68,
+        "revenue": 469482,
+        "sold": 1562,
+        "top": "[Chong Kun Dang] *升級* Lacto Fit 5X 益生菌 LactoFit Gold 韓國 2 g"
       },
       {
         "sid": 1669879313,
@@ -1927,17 +1947,17 @@
       {
         "sid": 1322568851,
         "name": "BUTTER.kr",
-        "items": 31,
-        "revenue": 433079,
-        "sold": 781,
+        "items": 33,
+        "revenue": 434179,
+        "sold": 785,
         "top": "[2年份組] 韓國 ATOJET 家用淋浴蓮蓬頭濾芯補充包 2年份組 相容多款型號 過濾鐵鏽雜質 韓國製造"
       },
       {
         "sid": 99890218,
         "name": "Some By Mi 莎柏蜜 官方旗艦店",
-        "items": 25,
-        "revenue": 418510,
-        "sold": 937,
+        "items": 26,
+        "revenue": 420870,
+        "sold": 947,
         "top": "[SOMEBYMI] 茶樹三酸30天奇蹟沐浴乳 (400ml)"
       },
       {
@@ -1949,6 +1969,30 @@
         "top": "韓國直郵✈️ SHOOPEN 拖鞋 包頭鞋 suede clog HPCV4FA401 韓國代購"
       },
       {
+        "sid": 1578819708,
+        "name": "KJ&NA-🇰🇷韓國正品美妆",
+        "items": 24,
+        "revenue": 312221,
+        "sold": 621,
+        "top": "韓國現貨[MEDITHERAPY] 安安維C提亮泡泡精華 維他命C柠檬泡泡精華 100ml 補水亮澤 亮白精華"
+      },
+      {
+        "sid": 965543178,
+        "name": "Market Heidi",
+        "items": 87,
+        "revenue": 296922,
+        "sold": 877,
+        "top": "韓國 🇰🇷 Hetras 芒果籽黃油香水護手霜 50ml x 5ea"
+      },
+      {
+        "sid": 1112518050,
+        "name": "ilso一蘇品牌旗艦店",
+        "items": 9,
+        "revenue": 296680,
+        "sold": 607,
+        "top": "【ilso 官方旗艦店】溫和舒緩粉刺導出液+化妝棉"
+      },
+      {
         "sid": 1195083130,
         "name": "ccnmadeil",
         "items": 140,
@@ -1957,20 +2001,28 @@
         "top": "[CCNMADE][BTS V]Handmade Wish Bracelet / Different(13colors)"
       },
       {
-        "sid": 1112518050,
-        "name": "ilso一蘇品牌旗艦店",
+        "sid": 877715885,
+        "name": "AESTURA Official Store",
         "items": 8,
-        "revenue": 265711,
-        "sold": 576,
-        "top": "【ilso 官方旗艦店】溫和舒緩粉刺導出液+化妝棉"
+        "revenue": 280690,
+        "sold": 275,
+        "top": "AESTURA 璦絲特蘭每日保濕柔護細噴霧 120ml l 韓國官方直送"
       },
       {
         "sid": 1691988345,
         "name": "soso_beauty",
-        "items": 2,
-        "revenue": 250580,
-        "sold": 11,
-        "top": "MEDICUBE Booster Pro 我的旋律"
+        "items": 9,
+        "revenue": 263699,
+        "sold": 38,
+        "top": "Hidiff 7 天試用套裝"
+      },
+      {
+        "sid": 1009087762,
+        "name": "ccr0109gao",
+        "items": 73,
+        "revenue": 257991,
+        "sold": 536,
+        "top": "[ATOJET] 水龍頭1P+頭過濾器 濾芯3P + 主體過濾器 濾芯 3P"
       },
       {
         "sid": 1445420393,
@@ -1981,60 +2033,12 @@
         "top": "[現貨] Silicook 韓國 / 蒜泥冷凍分裝盒 15格(大格) & 24格(小格) / 韓國製造"
       },
       {
-        "sid": 1469541487,
-        "name": "Standard Seoul 韓國品牌旗艦店",
-        "items": 5,
-        "revenue": 247560,
-        "sold": 238,
-        "top": "[Standard Seoul] 緊緻化妝水棉片／保濕化妝水棉片+緊緻精華/保濕精華+水凝霜"
-      },
-      {
-        "sid": 1659043462,
-        "name": "CHAAKAN",
-        "items": 4,
-        "revenue": 238784,
-        "sold": 167,
-        "top": "O'Connell 厚底樂福鞋 LHLTS1g809"
-      },
-      {
-        "sid": 172194390,
-        "name": "raum 韓國品牌旗艦店",
-        "items": 19,
-        "revenue": 236954,
-        "sold": 355,
-        "top": "[BANANAL] [Intensive] 韓國防脫髮頭皮微針精華15ml單件/2件套_韓國官方直送"
-      },
-      {
-        "sid": 965543178,
-        "name": "Market Heidi",
-        "items": 69,
-        "revenue": 235718,
-        "sold": 775,
-        "top": "韓國 🇰🇷 Hetras 芒果籽黃油香水護手霜 50ml x 5ea"
-      },
-      {
-        "sid": 427502111,
-        "name": "K-Bowling Pro Shop",
-        "items": 163,
-        "revenue": 232427,
-        "sold": 318,
-        "top": "【買5送1】Xtreme Fortius 保齡球拇指指背貼"
-      },
-      {
-        "sid": 1578819708,
-        "name": "KJ&NA-🇰🇷韓國正品美妆",
-        "items": 13,
-        "revenue": 230176,
-        "sold": 424,
-        "top": "韓國現貨[MEDITHERAPY] 安安維C提亮泡泡精華 維他命C柠檬泡泡精華 100ml 補水亮澤 亮白精華"
-      },
-      {
-        "sid": 1152063847,
-        "name": "fwee 官方旗艦店",
-        "items": 3,
-        "revenue": 225993,
-        "sold": 410,
-        "top": "fwee 迷你完美染唇刷 (迷你版/極細版)"
+        "sid": 1536623090,
+        "name": "Yan,STORE",
+        "items": 93,
+        "revenue": 248357,
+        "sold": 1783,
+        "top": "[FLIMEAL] 蛋白質奶昔袋 45g - 9 種口味"
       }
     ]
   },
