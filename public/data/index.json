@@ -1459,20 +1459,24 @@
     "domain": "shopee.tw",
     "currency": "TWD",
     "flag": "🇹🇼",
-    "collected": "2026-04-16T00:28:11.810Z",
-    "totalProducts": 18890,
-    "totalSellers": 1034,
-    "apiCalls": 768,
+    "collected": "2026-04-16T04:33:44.007Z",
+    "totalProducts": 26211,
+    "totalSellers": 1313,
+    "apiCalls": 984,
     "apiFails": 0,
     "categories": {
       "big": [
+        [
+          "居家生活",
+          10797
+        ],
         [
           "女生衣著",
           7286
         ],
         [
-          "居家生活",
-          6604
+          "運動/健身",
+          3127
         ],
         [
           "書籍及雜誌期刊",
@@ -1481,6 +1485,10 @@
         [
           "男生衣著",
           2443
+        ],
+        [
+          "美食、伴手禮",
+          1
         ]
       ],
       "mid": [
@@ -1490,7 +1498,7 @@
         ],
         [
           "其他",
-          1573
+          1649
         ],
         [
           "T恤",
@@ -1513,6 +1521,14 @@
           1020
         ],
         [
+          "日用品",
+          1000
+        ],
+        [
+          "文具",
+          989
+        ],
+        [
           "長褲",
           961
         ],
@@ -1521,8 +1537,16 @@
           853
         ],
         [
+          "居家裝飾",
+          762
+        ],
+        [
           "漫畫",
           686
+        ],
+        [
+          "球類運動",
+          638
         ],
         [
           "外套",
@@ -1531,6 +1555,18 @@
         [
           "帽T/大學T",
           606
+        ],
+        [
+          "運動用品",
+          599
+        ],
+        [
+          "運動服飾/配件",
+          588
+        ],
+        [
+          "五金修繕",
+          541
         ],
         [
           "針織/毛衣",
@@ -1553,12 +1589,28 @@
           428
         ],
         [
+          "寢具",
+          403
+        ],
+        [
           "貼紙、著色書籍",
           387
         ],
         [
+          "運動鞋款",
+          360
+        ],
+        [
           "短褲",
           356
+        ],
+        [
+          "運動休閒鞋款",
+          334
+        ],
+        [
+          "電動工具",
+          287
         ],
         [
           "小可愛/背心",
@@ -1573,12 +1625,20 @@
           234
         ],
         [
+          "游泳及水類運動",
+          221
+        ],
+        [
           "雜誌期刊",
           197
         ],
         [
           "丹寧牛仔",
           186
+        ],
+        [
+          "運動健身能量補給",
+          183
         ],
         [
           "裙子",
@@ -1589,8 +1649,16 @@
           164
         ],
         [
+          "健身運動器材",
+          146
+        ],
+        [
           "洋裝",
           145
+        ],
+        [
+          "居安防護",
+          125
         ],
         [
           "男性內著",
@@ -1629,6 +1697,10 @@
           60
         ],
         [
+          "園藝植作",
+          40
+        ],
+        [
           "背心",
           36
         ],
@@ -1639,6 +1711,10 @@
         [
           "求職、自我成長書籍",
           25
+        ],
+        [
+          "傢俱",
+          24
         ],
         [
           "心理勵志書籍",
@@ -1669,6 +1745,10 @@
           7
         ],
         [
+          "沙發、沙發床",
+          4
+        ],
+        [
           "親子教養與共讀繪本書籍",
           3
         ],
@@ -1683,6 +1763,10 @@
         [
           "醫療保健書籍",
           1
+        ],
+        [
+          "蛋糕、甜點",
+          1
         ]
       ]
     },
@@ -1690,20 +1774,31 @@
       {
         "sid": 850180309,
         "name": "verish_official.tw",
-        "items": 38,
-        "revenue": 2299357,
-        "sold": 2105,
+        "items": 42,
+        "revenue": 2310612,
+        "sold": 2115,
         "avgUpload": 0,
         "off": false,
         "pref": false,
         "top": "【Cool-Fit｜集中】 Verish輕量豐胸無鋼圈內衣"
       },
       {
+        "sid": 1525497849,
+        "name": "gloryving",
+        "items": 23,
+        "revenue": 1499997,
+        "sold": 3,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "(韓國發貨) 榮耀隨機禮物"
+      },
+      {
         "sid": 161461216,
         "name": "COVERNAT_official",
-        "items": 1120,
-        "revenue": 1039220,
-        "sold": 788,
+        "items": 1129,
+        "revenue": 1040334,
+        "sold": 789,
         "avgUpload": 0.7,
         "off": true,
         "pref": false,
@@ -1723,13 +1818,24 @@
       {
         "sid": 472206435,
         "name": "WHO.A.U Official",
-        "items": 275,
-        "revenue": 517298,
-        "sold": 517,
+        "items": 281,
+        "revenue": 522103,
+        "sold": 530,
         "avgUpload": 0.3,
         "off": true,
         "pref": false,
         "top": "[WHO.A.U] 2 件裝 Steve Head Patch T 恤 | Whraf2352u"
+      },
+      {
+        "sid": 712099790,
+        "name": "korean azoomatw",
+        "items": 74,
+        "revenue": 489459,
+        "sold": 674,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "Hetras 酒店癒合擴散器 500mlX2 韓國擴香 韓國香氛 擴香瓶 聖誕禮物 Hello Ki"
       },
       {
         "sid": 706163308,
@@ -1743,33 +1849,33 @@
         "top": "[MAHAGRID]  基本款Logo短袖T恤_素T_男女共穿_情侶款BASIC LOGO TEE"
       },
       {
-        "sid": 712099790,
-        "name": "korean azoomatw",
-        "items": 59,
-        "revenue": 445593,
-        "sold": 588,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "Hetras 酒店癒合擴散器 500mlX2 韓國擴香 韓國香氛 擴香瓶 聖誕禮物 Hello Ki"
-      },
-      {
         "sid": 1322568851,
         "name": "BUTTER.kr",
-        "items": 14,
-        "revenue": 293762,
-        "sold": 516,
+        "items": 19,
+        "revenue": 302283,
+        "sold": 540,
         "avgUpload": 0,
         "off": false,
         "pref": false,
         "top": "[2年份組] 韓國 ATOJET 家用淋浴蓮蓬頭濾芯補充包 2年份組 相容多款型號 過濾鐵鏽雜質 韓"
       },
       {
+        "sid": 615877803,
+        "name": "GAOGAO BEAUTY 韓國美妝專賣店",
+        "items": 6,
+        "revenue": 261442,
+        "sold": 74,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "韓國 YEOWOORI 拉提保濕面膜 42g 一盒3包"
+      },
+      {
         "sid": 638774568,
         "name": "make_urday",
-        "items": 6,
-        "revenue": 182988,
-        "sold": 302,
+        "items": 12,
+        "revenue": 251230,
+        "sold": 572,
         "avgUpload": 0,
         "off": false,
         "pref": false,
@@ -1778,13 +1884,79 @@
       {
         "sid": 1445420393,
         "name": "韓國歐巴們的選物店",
-        "items": 99,
-        "revenue": 162139,
-        "sold": 608,
-        "avgUpload": 0.3,
+        "items": 127,
+        "revenue": 224157,
+        "sold": 728,
+        "avgUpload": 0.4,
         "off": false,
         "pref": false,
         "top": "[現貨] Silicook 韓國 / 蒜泥冷凍分裝盒 15格(大格) & 24格(小格) / 韓國製"
+      },
+      {
+        "sid": 427502111,
+        "name": "K-Bowling Pro Shop",
+        "items": 152,
+        "revenue": 219510,
+        "sold": 289,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "【買5送1】Xtreme Fortius 保齡球拇指指背貼"
+      },
+      {
+        "sid": 1536623090,
+        "name": "Yan,STORE",
+        "items": 81,
+        "revenue": 179381,
+        "sold": 1343,
+        "avgUpload": 0.4,
+        "off": false,
+        "pref": false,
+        "top": "[FLIMEAL] 蛋白質奶昔袋 45g - 9 種口味"
+      },
+      {
+        "sid": 343489682,
+        "name": "KOKO.kr",
+        "items": 16,
+        "revenue": 170988,
+        "sold": 291,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "[Daelim Bath] 韓國直郵 正品 D clean 替換裝濾芯大容量 12個 kakao蓮蓬"
+      },
+      {
+        "sid": 468333335,
+        "name": "heregoing",
+        "items": 157,
+        "revenue": 154520,
+        "sold": 329,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "繽紛伸縮矽膠馬克杯 韓國製 鉑金矽膠 露營 牙刷杯 水杯 馬克杯 摺疊水杯 野餐杯 矽膠折疊杯 6色"
+      },
+      {
+        "sid": 1524758069,
+        "name": "realkorea",
+        "items": 126,
+        "revenue": 152623,
+        "sold": 384,
+        "avgUpload": 0.4,
+        "off": false,
+        "pref": false,
+        "top": "韓國 [Warmgrey Tail] 設計手帕巾 34x34cm 純棉方巾 居家小毛巾"
+      },
+      {
+        "sid": 691661232,
+        "name": "Lancer sports_TW",
+        "items": 134,
+        "revenue": 149463,
+        "sold": 258,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "Mueller Tear-light 撕膠帶輕質彈性膠帶 (1 卷 / 尺寸: 5cm * 6.8m"
       },
       {
         "sid": 375786405,
@@ -1798,48 +1970,103 @@
         "top": "韓國直送NEOFLAM FIKA 系列 特價 不沾鍋 不沾平底鍋 不沾中式炒鍋 雙耳湯鍋 燉鍋 圓形"
       },
       {
-        "sid": 468333335,
-        "name": "heregoing",
-        "items": 139,
-        "revenue": 137489,
-        "sold": 293,
+        "sid": 1112518050,
+        "name": "ilso一蘇品牌旗艦店",
+        "items": 2,
+        "revenue": 145572,
+        "sold": 328,
+        "avgUpload": 0,
+        "off": true,
+        "pref": false,
+        "top": "【ilso 官方旗艦店】溫和舒緩粉刺導出液+化妝棉"
+      },
+      {
+        "sid": 1437735105,
+        "name": "wellpeak",
+        "items": 17,
+        "revenue": 139633,
+        "sold": 604,
         "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": "繽紛伸縮矽膠馬克杯 韓國製 鉑金矽膠 露營 牙刷杯 水杯 馬克杯 摺疊水杯 野餐杯 矽膠折疊杯 6色"
+        "top": "艾多美 牙刷 大型刷頭 1組, 8支入 : Atomy Toothbrush"
       },
       {
-        "sid": 1331201842,
-        "name": "S&B KOREA TW",
-        "items": 147,
-        "revenue": 111002,
-        "sold": 116,
-        "avgUpload": 0.3,
+        "sid": 1516189056,
+        "name": "korea vibes",
+        "items": 30,
+        "revenue": 138285,
+        "sold": 862,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": "[verish] CHAK CHAK 文胸全罩"
+        "top": "3M 舒適握把手套工作安全丁腈橡膠園藝機械建築包裝多用途 6 色"
+      },
+      {
+        "sid": 1729389225,
+        "name": "首爾姐 (韓國正品)",
+        "items": 52,
+        "revenue": 134189,
+        "sold": 1592,
+        "avgUpload": 0.7,
+        "off": false,
+        "pref": false,
+        "top": "[3M] ProGrip 專業 工作手套 (1000/2000/3000) - 耐用、防滑、透氣丁腈"
+      },
+      {
+        "sid": 229003803,
+        "name": "VT COSMETICS 官方旗艦店",
+        "items": 1,
+        "revenue": 123353,
+        "sold": 421,
+        "avgUpload": 0,
+        "off": true,
+        "pref": false,
+        "top": "【VT】BHA AHA CICA 去角質化妝水棉片 60片入 <官方旗艦店>"
+      },
+      {
+        "sid": 987167191,
+        "name": "Y&C 韓國代購",
+        "items": 132,
+        "revenue": 117785,
+        "sold": 91,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "韓國直郵✈️ ODENSE 26年新版 兩用環形水杯 時尚手提把 保溫杯 100ml 450ml 7"
+      },
+      {
+        "sid": 1660460253,
+        "name": "KoreaHere",
+        "items": 14,
+        "revenue": 117609,
+        "sold": 160,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[Oral-B] Glide Mint 44m 牙線 | 溫和舒適的牙線"
       },
       {
         "sid": 734200999,
         "name": "Pearl & Garnet Shop",
-        "items": 3,
-        "revenue": 110350,
-        "sold": 158,
+        "items": 8,
+        "revenue": 117571,
+        "sold": 187,
         "avgUpload": 0,
         "off": false,
         "pref": false,
         "top": "現貨 [Daelim Bath] D clean 替換裝濾芯 12入 costco 正品"
       },
       {
-        "sid": 1524758069,
-        "name": "realkorea",
-        "items": 67,
-        "revenue": 107180,
-        "sold": 240,
-        "avgUpload": 0.2,
+        "sid": 1331201842,
+        "name": "S&B KOREA TW",
+        "items": 175,
+        "revenue": 115401,
+        "sold": 124,
+        "avgUpload": 0.3,
         "off": false,
         "pref": false,
-        "top": "韓國 [Warmgrey Tail] 設計手帕巾 34x34cm 純棉方巾 居家小毛巾"
+        "top": "[verish] CHAK CHAK 文胸全罩"
       },
       {
         "sid": 486957422,
@@ -1853,66 +2080,99 @@
         "top": "韓國布 止滑布 防滑布 矽膠顆粒 硅膠塗層 聚酯纖維 Non-Slip Polyester"
       },
       {
-        "sid": 343489682,
-        "name": "KOKO.kr",
-        "items": 7,
-        "revenue": 101801,
-        "sold": 214,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "[Daelim Bath] 韓國直郵 正品 D clean 替換裝濾芯大容量 12個 kakao蓮蓬"
-      },
-      {
-        "sid": 298204644,
-        "name": "花樣年華_",
-        "items": 40,
-        "revenue": 98960,
-        "sold": 123,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "韓國直送 Neoflam FIKA IH感應不沾塗層炒鍋（不含鍋蓋）系列 特價 不沾鍋 不沾平底鍋 "
-      },
-      {
-        "sid": 987167191,
-        "name": "Y&C 韓國代購",
-        "items": 119,
-        "revenue": 95500,
-        "sold": 84,
-        "avgUpload": 0.1,
-        "off": false,
-        "pref": false,
-        "top": "韓國直郵✈️ ODENSE 26年新版 兩用環形水杯 時尚手提把 保溫杯 100ml 450ml 7"
-      },
-      {
-        "sid": 457031822,
-        "name": "奔跑的山豬RWB",
-        "items": 64,
-        "revenue": 93380,
-        "sold": 76,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "🍀【韓國現貨】2025 韓國藍瓶 Blue Bottle Coffee Stirrer 咖啡攪拌棒"
-      },
-      {
         "sid": 1009087762,
         "name": "ccr0109gao",
-        "items": 17,
-        "revenue": 93177,
-        "sold": 264,
+        "items": 25,
+        "revenue": 105544,
+        "sold": 286,
         "avgUpload": 0,
         "off": false,
         "pref": false,
         "top": "[ATOJET] 水龍頭1P+頭過濾器 濾芯3P + 主體過濾器 濾芯 3P"
       },
       {
+        "sid": 381343271,
+        "name": "beautiseoul",
+        "items": 19,
+        "revenue": 104168,
+        "sold": 334,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "韓國 ilso 溫和舒緩 粉刺導出液150ml+棉片40枚+毛孔面膜 1片+黑頭鏟/ 150ml+補"
+      },
+      {
+        "sid": 745542436,
+        "name": "market_centre",
+        "items": 22,
+        "revenue": 103276,
+        "sold": 321,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "[Hetras] 高級汽車擴散器套裝  77ml x 2 件"
+      },
+      {
+        "sid": 1567994876,
+        "name": "GoodVibePick",
+        "items": 20,
+        "revenue": 101551,
+        "sold": 91,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "[Bodyluv] Puresome Signature 水龍頭過濾器套裝 + 補充盒(5 件) •"
+      },
+      {
+        "sid": 298204644,
+        "name": "花樣年華_",
+        "items": 41,
+        "revenue": 99359,
+        "sold": 126,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "韓國直送 Neoflam FIKA IH感應不沾塗層炒鍋（不含鍋蓋）系列 特價 不沾鍋 不沾平底鍋 "
+      },
+      {
+        "sid": 457031822,
+        "name": "奔跑的山豬RWB",
+        "items": 73,
+        "revenue": 97080,
+        "sold": 83,
+        "avgUpload": 0,
+        "off": false,
+        "pref": false,
+        "top": "🍀【韓國現貨】2025 韓國藍瓶 Blue Bottle Coffee Stirrer 咖啡攪拌棒"
+      },
+      {
+        "sid": 752339548,
+        "name": "Golden Cheetah from Korea",
+        "items": 265,
+        "revenue": 96595,
+        "sold": 220,
+        "avgUpload": 0.2,
+        "off": false,
+        "pref": false,
+        "top": "大創 [Daiso Korea] 矽藻土托盤肥皂架快乾吸水劑"
+      },
+      {
+        "sid": 548717057,
+        "name": "WonderJoy",
+        "items": 387,
+        "revenue": 95122,
+        "sold": 348,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "[locknlock] Metro 馬克杯蓋 LHC4282 馬克杯蓋鎖扣"
+      },
+      {
         "sid": 1532790585,
         "name": "jayu_from_kshopmz",
-        "items": 96,
-        "revenue": 88345,
-        "sold": 57,
+        "items": 111,
+        "revenue": 92710,
+        "sold": 63,
         "avgUpload": 0.3,
         "off": false,
         "pref": false,
@@ -1930,312 +2190,136 @@
         "top": "[RONRON] DOUBLE RIBBON SLIM CROP 修身短款T 恤 / 4色任選 韓國"
       },
       {
-        "sid": 752339548,
-        "name": "Golden Cheetah from Korea",
-        "items": 190,
-        "revenue": 73498,
-        "sold": 173,
+        "sid": 1570804533,
+        "name": "minq0425qz",
+        "items": 231,
+        "revenue": 74559,
+        "sold": 91,
+        "avgUpload": 0.8,
+        "off": false,
+        "pref": false,
+        "top": "科克蘭 [Kirkland] 天然羊皮簽名高爾夫手套 4ea"
+      },
+      {
+        "sid": 965543178,
+        "name": "Market Heidi",
+        "items": 43,
+        "revenue": 72991,
+        "sold": 311,
         "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": "大創 [Daiso Korea] 矽藻土托盤肥皂架快乾吸水劑"
-      },
-      {
-        "sid": 765094759,
-        "name": "declenkr4u.tw",
-        "items": 692,
-        "revenue": 65066,
-        "sold": 104,
-        "avgUpload": 0.5,
-        "off": false,
-        "pref": false,
-        "top": "The Best of Yiruma 李閏珉最佳精選鋼琴譜"
-      },
-      {
-        "sid": 359478660,
-        "name": "moni korea",
-        "items": 51,
-        "revenue": 63830,
-        "sold": 115,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "[Dr.piel] 韓國直郵 正品 皮益博士 漉芯蓮蓬頭 普通型 / LITE型 / 寬型 韓國製造"
-      },
-      {
-        "sid": 1233764733,
-        "name": "soralandet",
-        "items": 178,
-        "revenue": 63020,
-        "sold": 58,
-        "avgUpload": 0.2,
-        "off": false,
-        "pref": false,
-        "top": "[MARDI MERCREDI] T 恤 FLOWERMARDI JARDIN_9color"
-      },
-      {
-        "sid": 548717057,
-        "name": "WonderJoy",
-        "items": 268,
-        "revenue": 61727,
-        "sold": 187,
-        "avgUpload": 0.2,
-        "off": false,
-        "pref": false,
-        "top": "[locknlock] Metro 馬克杯蓋 LHC4282 馬克杯蓋鎖扣"
-      },
-      {
-        "sid": 1708899054,
-        "name": "V-Select Korea",
-        "items": 29,
-        "revenue": 61513,
-        "sold": 71,
-        "avgUpload": 0.3,
-        "off": false,
-        "pref": false,
-        "top": "[限量版] Starbucks Korea Signature Mini Tumbler Keyri"
-      },
-      {
-        "sid": 1599773880,
-        "name": "zen1638dl",
-        "items": 36,
-        "revenue": 60763,
-        "sold": 40,
-        "avgUpload": 0.2,
-        "off": false,
-        "pref": false,
-        "top": "STANLEY ICEFLOW 翻蓋吸管 2.0 玻璃杯 887ML – 秋季清爽系列(4 色)"
+        "top": "韓國 🇰🇷 FULLIGHT FLIMEAL 蛋白質奶昔(13 種口味)"
       },
       {
         "sid": 300978629,
         "name": "koreaplus.tw",
-        "items": 82,
-        "revenue": 59470,
-        "sold": 156,
+        "items": 125,
+        "revenue": 72874,
+        "sold": 198,
         "avgUpload": 0.1,
         "off": false,
         "pref": false,
         "top": "[LocknLock] Metro Cafe 陶瓷杯 400 / 500 / 650ml LHC43"
       },
       {
-        "sid": 745542436,
-        "name": "market_centre",
-        "items": 14,
-        "revenue": 59429,
-        "sold": 159,
+        "sid": 359478660,
+        "name": "moni korea",
+        "items": 62,
+        "revenue": 72250,
+        "sold": 128,
         "avgUpload": 0,
         "off": false,
         "pref": false,
-        "top": "[Hetras] 高級汽車擴散器套裝  77ml x 2 件"
+        "top": "[Dr.piel] 韓國直郵 正品 皮益博士 漉芯蓮蓬頭 普通型 / LITE型 / 寬型 韓國製造"
       },
       {
-        "sid": 1168018591,
-        "name": "ML – My Life, My Line 韓國選物 \t",
-        "items": 329,
-        "revenue": 53229,
-        "sold": 23,
-        "avgUpload": 1.2,
+        "sid": 765094759,
+        "name": "declenkr4u.tw",
+        "items": 699,
+        "revenue": 67406,
+        "sold": 120,
+        "avgUpload": 0.5,
         "off": false,
         "pref": false,
-        "top": "ML2 國家地理索倫娜酷心標誌半版T恤 N262UTS902 K-FASHION"
+        "top": "The Best of Yiruma 李閏珉最佳精選鋼琴譜"
       },
       {
-        "sid": 1192891143,
-        "name": "AMES-WORLDWIDE.tw",
-        "items": 108,
-        "revenue": 49067,
-        "sold": 41,
-        "avgUpload": 0.4,
-        "off": false,
-        "pref": false,
-        "top": "[AMES] 圓形LOGO TEE_韓風"
-      },
-      {
-        "sid": 1659859395,
-        "name": "Next Chapter Korea ☀️",
-        "items": 342,
-        "revenue": 48573,
-        "sold": 15,
-        "avgUpload": 2.1,
-        "off": false,
-        "pref": false,
-        "top": "KODAK NC1柯達洗雪圖案短袖T恤 K6222LRS11 DAILY BASIC"
-      },
-      {
-        "sid": 890802990,
-        "name": "lig6459ai.tw",
-        "items": 18,
-        "revenue": 48515,
-        "sold": 145,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "[BODYLUV] Puresome 淋浴噴頭補充過濾器 3ea / 10ea"
-      },
-      {
-        "sid": 992103116,
-        "name": "DANBI.zb",
-        "items": 335,
-        "revenue": 47332,
-        "sold": 41,
+        "sid": 1599773880,
+        "name": "zen1638dl",
+        "items": 62,
+        "revenue": 66746,
+        "sold": 46,
         "avgUpload": 0.3,
         "off": false,
         "pref": false,
-        "top": "[MARDI Mercredi] 修身 T 恤 FLOWERMARDI_3color / 100% "
+        "top": "STANLEY ICEFLOW 翻蓋吸管 2.0 玻璃杯 887ML – 秋季清爽系列(4 色)"
       },
       {
-        "sid": 1737616739,
-        "name": "Dunst",
-        "items": 108,
-        "revenue": 46368,
-        "sold": 9,
-        "avgUpload": 2,
-        "off": true,
-        "pref": false,
-        "top": "[Dunst]中性風皮标装饰半拉链卫衣_UDTS6A107"
-      },
-      {
-        "sid": 965543178,
-        "name": "Market Heidi",
-        "items": 24,
-        "revenue": 46144,
-        "sold": 160,
-        "avgUpload": 0,
+        "sid": 722598055,
+        "name": "kgoods.tw",
+        "items": 81,
+        "revenue": 64719,
+        "sold": 80,
+        "avgUpload": 0.1,
         "off": false,
         "pref": false,
-        "top": "韓國 🇰🇷 維生素淋浴過濾器/除鏽劑淋浴過濾器/除氯劑淋浴過濾器/維他淋浴過濾器"
-      },
-      {
-        "sid": 655129991,
-        "name": "modumoduwa",
-        "items": 321,
-        "revenue": 43651,
-        "sold": 62,
-        "avgUpload": 0.2,
-        "off": false,
-        "pref": false,
-        "top": "[韓國] Sejong Korean 世宗韓國語推廣活動書(韓語修訂版) 세종한국어"
-      },
-      {
-        "sid": 980457453,
-        "name": "K-style goods",
-        "items": 382,
-        "revenue": 43021,
-        "sold": 59,
-        "avgUpload": 0.4,
-        "off": false,
-        "pref": false,
-        "top": "[韓國版] 東京外星人 Vol.11 首刷限定版 (韓文版 日漫 漫畫 東京エイリアンズ 特典 NA"
-      },
-      {
-        "sid": 1313673471,
-        "name": "UrbanGem.kz",
-        "items": 275,
-        "revenue": 42089,
-        "sold": 31,
-        "avgUpload": 0.7,
-        "off": false,
-        "pref": false,
-        "top": "BLUECITY 棉混紡保暖抓絨緊身褲彈力緊身褲連褲襪 3 型"
+        "top": "STORM Thunder 保齡球清潔紙巾(60 張)"
       },
       {
         "sid": 339684556,
         "name": "bella_shop20.tw",
-        "items": 19,
-        "revenue": 41956,
-        "sold": 134,
+        "items": 34,
+        "revenue": 64238,
+        "sold": 168,
         "avgUpload": 0,
         "off": false,
         "pref": false,
         "top": "BODYLUV Puresome/Dr.Piel 淋浴頭兼容過濾器替換裝去除鏽跡雜質"
       },
       {
-        "sid": 748858792,
-        "name": "VAKUEN韓國真空保鮮盒 官方旗艦店",
-        "items": 2,
-        "revenue": 39867,
-        "sold": 33,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "【韓國VAKUEN官方旗艦店】 智能真空密封保鮮盒 防漏 不含雙酚A 密封罐 密封盒(6種容量 智能"
-      },
-      {
-        "sid": 1658428672,
-        "name": "floreetw",
-        "items": 7,
-        "revenue": 38902,
-        "sold": 25,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "(限量版)Stanley x Starbucks 韓國聯名 Stanley Signature QC"
-      },
-      {
-        "sid": 1041005658,
-        "name": "stl.tw",
-        "items": 73,
-        "revenue": 38817,
-        "sold": 61,
-        "avgUpload": 0.1,
-        "off": false,
-        "pref": false,
-        "top": "[限量銷售] STL 韓國瑜伽新鮮縐紗完美背心 1+1 | 任意選擇 2 種顏色 | 活動銷售"
-      },
-      {
-        "sid": 1451120808,
-        "name": "AllForYou_Korea",
-        "items": 33,
-        "revenue": 38429,
-        "sold": 24,
-        "avgUpload": 0.1,
-        "off": false,
-        "pref": false,
-        "top": "[ZO&FRIENDS X OHSCENT] 香水香包 / 織物香水 / G-Dragon / GD"
-      },
-      {
-        "sid": 381716176,
-        "name": "GRANHAND_official",
-        "items": 4,
-        "revenue": 36140,
-        "sold": 49,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "[GRANHAND./FREE SHIPPING] 香氛袋 (Sachet)(40g)"
-      },
-      {
-        "sid": 1648594117,
-        "name": "About Daily",
-        "items": 7,
-        "revenue": 34653,
-        "sold": 107,
-        "avgUpload": 1.2,
-        "off": false,
-        "pref": false,
-        "top": "Silipot 韓國 / 白金矽膠氣炸鍋烘烤盤 / 四色可選 / 韓國製造"
-      },
-      {
-        "sid": 257530343,
-        "name": "韓國 Oppa的選擇_ 最佳化妝品",
-        "items": 12,
-        "revenue": 33631,
-        "sold": 39,
-        "avgUpload": 0,
-        "off": false,
-        "pref": false,
-        "top": "FORMENT SIGNATURE PERFUME SACHET 2EA"
-      },
-      {
-        "sid": 776586090,
-        "name": "seouloppa1",
-        "items": 301,
-        "revenue": 32910,
-        "sold": 24,
+        "sid": 1233764733,
+        "name": "soralandet",
+        "items": 179,
+        "revenue": 63648,
+        "sold": 59,
         "avgUpload": 0.2,
         "off": false,
         "pref": false,
-        "top": "韓國【MUCENT】VIOLA單肩不平衡閃光T/ITZY RYUJIN挑100%正品"
+        "top": "[MARDI MERCREDI] T 恤 FLOWERMARDI JARDIN_9color"
+      },
+      {
+        "sid": 1708899054,
+        "name": "V-Select Korea",
+        "items": 34,
+        "revenue": 63089,
+        "sold": 72,
+        "avgUpload": 0.3,
+        "off": false,
+        "pref": false,
+        "top": "[限量版] Starbucks Korea Signature Mini Tumbler Keyri"
+      },
+      {
+        "sid": 1196948363,
+        "name": "K-Global Shop Seoul",
+        "items": 116,
+        "revenue": 62879,
+        "sold": 48,
+        "avgUpload": 0.2,
+        "off": false,
+        "pref": false,
+        "top": "[更新] Nelna Focus On Timer Pomodoro Clock 學習時間計時器 -"
+      },
+      {
+        "sid": 1563717446,
+        "name": "BEAUNESS台灣旗艦店",
+        "items": 8,
+        "revenue": 57735,
+        "sold": 44,
+        "avgUpload": 0.1,
+        "off": false,
+        "pref": false,
+        "top": "BEAUNESS Shake 韓國蛋白奶昔 入門包 6包入"
       }
     ]
   },
