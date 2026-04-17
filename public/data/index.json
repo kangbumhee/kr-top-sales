@@ -1459,12 +1459,12 @@
     "domain": "shopee.tw",
     "currency": "TWD",
     "flag": "🇹🇼",
-    "collected": "2026-04-16T17:53:44.949Z",
-    "totalProducts": 43383,
-    "totalSellers": 1896,
-    "apiCalls": 1526,
+    "collected": "2026-04-17T01:15:15.323Z",
+    "totalProducts": 43678,
+    "totalSellers": 1903,
+    "apiCalls": 1551,
     "apiFails": 0,
-    "categoriesCovered": "161/297",
+    "categoriesCovered": "165/297",
     "categories": {
       "big": [
         [
@@ -1497,7 +1497,7 @@
         ],
         [
           "保健、護理",
-          1431
+          1726
         ],
         [
           "男女鞋",
@@ -1519,7 +1519,7 @@
       "mid": [
         [
           "其他",
-          2093
+          2121
         ],
         [
           "餐廚",
@@ -1651,9 +1651,9 @@
       {
         "sid": 881779791,
         "name": "KMartU",
-        "items": 48,
-        "revenue": 3950994,
-        "sold": 4919,
+        "items": 49,
+        "revenue": 3966574,
+        "sold": 4957,
         "top": "Renecell 所有產品 / 最佳系列"
       },
       {
@@ -1755,9 +1755,9 @@
       {
         "sid": 734200999,
         "name": "Pearl & Garnet Shop",
-        "items": 95,
-        "revenue": 1368842,
-        "sold": 3405,
+        "items": 98,
+        "revenue": 1386482,
+        "sold": 3451,
         "top": "現貨 Round Lab 白樺樹防曬 水分精華防曬 / 水分提亮膚色防曬霜 50ml SPF50+PA++++"
       },
       {
@@ -1801,6 +1801,14 @@
         "top": "OLIVEYOUNG代購 MEDIHEAL 美迪惠爾必備面膜 積雪草 茶樹 膠原蛋白 玫瑰 韓國直送"
       },
       {
+        "sid": 638774568,
+        "name": "make_urday",
+        "items": 74,
+        "revenue": 842876,
+        "sold": 1544,
+        "top": "[Foodology] Talksology Cleanse Vium Pro 50ml"
+      },
+      {
         "sid": 1201259391,
         "name": "Beauty of Joseon 官方旗艦店",
         "items": 15,
@@ -1815,14 +1823,6 @@
         "revenue": 829218,
         "sold": 2407,
         "top": "艾多美 防曬霜 60ml : Atomy Sunscreen"
-      },
-      {
-        "sid": 638774568,
-        "name": "make_urday",
-        "items": 65,
-        "revenue": 827041,
-        "sold": 1525,
-        "top": "[Foodology] Talksology Cleanse Vium Pro 50ml"
       },
       {
         "sid": 1536623398,
@@ -1851,7 +1851,7 @@
       {
         "sid": 343489682,
         "name": "KOKO.kr",
-        "items": 72,
+        "items": 73,
         "revenue": 677285,
         "sold": 1750,
         "top": "DONG-A Acnon 13g / Aclean 20g / Noscarna 10 20g with FREEBIE"
@@ -1881,20 +1881,20 @@
         "top": "[JULYME韓國] 洗護油4件組 (洗髮精+護髮素+護髮膜+護髮油)"
       },
       {
+        "sid": 276532583,
+        "name": "MTS KOREA",
+        "items": 37,
+        "revenue": 610716,
+        "sold": 959,
+        "top": "艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"
+      },
+      {
         "sid": 1243235933,
         "name": "JY RETAIL KOREA",
         "items": 12,
         "revenue": 606975,
         "sold": 447,
         "top": "VODANA Glam Wave 大捲電棒 32/36/40mm 韓系捲髮器 捲髮棒"
-      },
-      {
-        "sid": 276532583,
-        "name": "MTS KOREA",
-        "items": 36,
-        "revenue": 587706,
-        "sold": 900,
-        "top": "艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"
       },
       {
         "sid": 472206435,
@@ -1931,10 +1931,18 @@
       {
         "sid": 857110170,
         "name": "pinklove.tw",
-        "items": 68,
-        "revenue": 469482,
-        "sold": 1562,
+        "items": 70,
+        "revenue": 470100,
+        "sold": 1564,
         "top": "[Chong Kun Dang] *升級* Lacto Fit 5X 益生菌 LactoFit Gold 韓國 2 g"
+      },
+      {
+        "sid": 769808963,
+        "name": "PHYTOTICS 必多提斯 官方旗艦店",
+        "items": 15,
+        "revenue": 466289,
+        "sold": 374,
+        "top": "[PHYTOTICS] 韓國必多提斯 花青素摩洛血橙飲 韓國直送 官方旗艦"
       },
       {
         "sid": 1669879313,
@@ -1979,9 +1987,9 @@
       {
         "sid": 965543178,
         "name": "Market Heidi",
-        "items": 87,
-        "revenue": 296922,
-        "sold": 877,
+        "items": 89,
+        "revenue": 299802,
+        "sold": 885,
         "top": "韓國 🇰🇷 Hetras 芒果籽黃油香水護手霜 50ml x 5ea"
       },
       {
@@ -2019,25 +2027,17 @@
       {
         "sid": 1009087762,
         "name": "ccr0109gao",
-        "items": 73,
-        "revenue": 257991,
-        "sold": 536,
+        "items": 74,
+        "revenue": 260896,
+        "sold": 541,
         "top": "[ATOJET] 水龍頭1P+頭過濾器 濾芯3P + 主體過濾器 濾芯 3P"
-      },
-      {
-        "sid": 1445420393,
-        "name": "韓國歐巴們的選物店",
-        "items": 132,
-        "revenue": 250031,
-        "sold": 774,
-        "top": "[現貨] Silicook 韓國 / 蒜泥冷凍分裝盒 15格(大格) & 24格(小格) / 韓國製造"
       },
       {
         "sid": 1536623090,
         "name": "Yan,STORE",
-        "items": 93,
-        "revenue": 248357,
-        "sold": 1783,
+        "items": 98,
+        "revenue": 257540,
+        "sold": 1842,
         "top": "[FLIMEAL] 蛋白質奶昔袋 45g - 9 種口味"
       }
     ]
