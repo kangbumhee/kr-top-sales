@@ -1459,12 +1459,12 @@
     "domain": "shopee.tw",
     "currency": "TWD",
     "flag": "🇹🇼",
-    "collected": "2026-04-17T09:18:07.278Z",
-    "totalProducts": 57260,
-    "totalSellers": 2090,
-    "apiCalls": 1989,
+    "collected": "2026-04-17T11:18:37.287Z",
+    "totalProducts": 60517,
+    "totalSellers": 2101,
+    "apiCalls": 2097,
     "apiFails": 0,
-    "categoriesCovered": "209/297",
+    "categoriesCovered": "221/297",
     "categories": {
       "big": [
         [
@@ -1496,6 +1496,10 @@
           3127
         ],
         [
+          "女生包包/精品",
+          2755
+        ],
+        [
           "保健、護理",
           2670
         ],
@@ -1516,8 +1520,8 @@
           1326
         ],
         [
-          "女生包包/精品",
-          774
+          "手機平板與周邊",
+          1276
         ],
         [
           "汽機車零件百貨",
@@ -1535,7 +1539,7 @@
       "mid": [
         [
           "其他",
-          2762
+          2833
         ],
         [
           "餐廚",
@@ -1646,12 +1650,12 @@
           762
         ],
         [
-          "漫畫",
-          686
+          "皮夾",
+          738
         ],
         [
-          "童裝、童鞋與配件",
-          651
+          "Android保護殼",
+          712
         ]
       ]
     },
@@ -1803,9 +1807,9 @@
       {
         "sid": 161461216,
         "name": "COVERNAT_official",
-        "items": 1196,
-        "revenue": 1088104,
-        "sold": 848,
+        "items": 1208,
+        "revenue": 1090840,
+        "sold": 850,
         "top": "[COVERNAT]25SS 韓版短袖T恤 大學t 春季淨版白色T恤 打底衫 2-PACK（多色任選）"
       },
       {
@@ -1891,9 +1895,9 @@
       {
         "sid": 125308669,
         "name": "KPOP MERCH",
-        "items": 255,
-        "revenue": 737242,
-        "sold": 971,
+        "items": 256,
+        "revenue": 737960,
+        "sold": 972,
         "top": "SEVENTEEN - MINITEEN Magnet Plush Keyring"
       },
       {
@@ -1905,20 +1909,20 @@
         "top": "[FULLY Official] 綠番茄潔膚泥膜 120ml"
       },
       {
+        "sid": 343489682,
+        "name": "KOKO.kr",
+        "items": 92,
+        "revenue": 700327,
+        "sold": 1789,
+        "top": "DONG-A Acnon 13g / Aclean 20g / Noscarna 10 20g with FREEBIE"
+      },
+      {
         "sid": 1710320692,
         "name": "kpoppeachjl",
         "items": 25,
         "revenue": 687370,
         "sold": 456,
         "top": "[現貨] EXO 手燈 三代 官方 (Light Stick Ver.3 Official)(Photocard PC)"
-      },
-      {
-        "sid": 343489682,
-        "name": "KOKO.kr",
-        "items": 82,
-        "revenue": 685125,
-        "sold": 1760,
-        "top": "DONG-A Acnon 13g / Aclean 20g / Noscarna 10 20g with FREEBIE"
       },
       {
         "sid": 1726247970,
@@ -1931,10 +1935,18 @@
       {
         "sid": 472206435,
         "name": "WHO.A.U Official",
-        "items": 326,
-        "revenue": 618100,
-        "sold": 637,
+        "items": 329,
+        "revenue": 621481,
+        "sold": 643,
         "top": "[WHO.A.U] 2 件裝 Steve Head Patch T 恤 | Whraf2352u"
+      },
+      {
+        "sid": 276532583,
+        "name": "MTS KOREA",
+        "items": 49,
+        "revenue": 619013,
+        "sold": 968,
+        "top": "艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"
       },
       {
         "sid": 219162204,
@@ -1943,14 +1955,6 @@
         "revenue": 615080,
         "sold": 503,
         "top": "[JULYME韓國] 洗護油4件組 (洗髮精+護髮素+護髮膜+護髮油)"
-      },
-      {
-        "sid": 276532583,
-        "name": "MTS KOREA",
-        "items": 37,
-        "revenue": 610716,
-        "sold": 959,
-        "top": "艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"
       },
       {
         "sid": 1243235933,
@@ -1971,9 +1975,9 @@
       {
         "sid": 1702082381,
         "name": "Doomchit.KR",
-        "items": 69,
-        "revenue": 562128,
-        "sold": 374,
+        "items": 84,
+        "revenue": 568538,
+        "sold": 380,
         "top": "Travel Gear 防盜包 RFID斜背包 Anna包 輕量多夾層 旅行收納包 韓國直送"
       },
       {
@@ -2003,9 +2007,9 @@
       {
         "sid": 706163308,
         "name": "MAHAGRID Official Store 台灣官方旗艦店",
-        "items": 215,
-        "revenue": 480711,
-        "sold": 502,
+        "items": 216,
+        "revenue": 481621,
+        "sold": 503,
         "top": "[MAHAGRID]  基本款Logo短袖T恤_素T_男女共穿_情侶款BASIC LOGO TEE"
       },
       {
@@ -2041,20 +2045,20 @@
         "top": "【COSNORI】[非賣品] 提亮霜 COSNORI 1,5ML"
       },
       {
+        "sid": 432885341,
+        "name": "Ringke Original",
+        "items": 281,
+        "revenue": 442705,
+        "sold": 787,
+        "top": "Ringke Dual Easy Wing Film 適用於 Galaxy S23 Ultra 屏幕保護膜透明輕巧"
+      },
+      {
         "sid": 1322568851,
         "name": "BUTTER.kr",
         "items": 37,
         "revenue": 437855,
         "sold": 791,
         "top": "[2年份組] 韓國 ATOJET 家用淋浴蓮蓬頭濾芯補充包 2年份組 相容多款型號 過濾鐵鏽雜質 韓國製造"
-      },
-      {
-        "sid": 99890218,
-        "name": "Some By Mi 莎柏蜜 官方旗艦店",
-        "items": 26,
-        "revenue": 420870,
-        "sold": 947,
-        "top": "[SOMEBYMI] 茶樹三酸30天奇蹟沐浴乳 (400ml)"
       }
     ]
   },
