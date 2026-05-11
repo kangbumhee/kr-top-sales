@@ -1,1 +1,1895 @@
-{"sg":{"country":"sg","name":"Singapore","domain":"shopee.sg","currency":"SGD","supported":true,"filter":"locations=Korea (5-sort merge)","collected":"2026-03-31T03:46:26.572Z","totalProducts":70070,"totalSellers":1888,"categories":{"big":[["Home & Living",9232],["Beauty & Personal Care",9045],["Jewellery & Accessories",5687],["Women's Apparel",5167],["Hobbies & Books",4855],["Sports & Outdoors",4365],["Toys, Kids & Babies",4342],["Food & Beverages",4162],["Women's Bags",3907],["Health & Wellness",3122],["Women's Shoes",2202],["Pet Supplies",1800],["Men's Wear",1789],["Mobile & Gadgets",1772],["Kids Fashion",1705],["Travel & Luggage",1403],["Home Appliances",1326],["Computers & Peripherals",901],["Cameras & Drones",649],["Watches",647],["Men's Shoes",603],["Automotive",597],["Men's Bags",504],["Video Games",223],["Miscellaneous",34],["Dining, Travel & Services",31]],"mid":[["Others",1523],["Music, Movies & Games",1291],["Housekeeping",1229],["Kitchen & Dining",1220],["Snacks & Sweets",1202],["Stationery & Supplies",1192],["Beauty Devices & Tools",1170],["Feeding & Nursing",1169],["Beverages",1158],["Bath & Body",1153],["Oral Care",1140],["Makeup",1131],["Tops",1131],["Food Staples",1129],["Toys",1118],["Mobile Accessories",1116],["Men's Grooming",1107],["Books",1105],["Bath & Baby Care",1081],["Bathroom",1050],["Key Chains",1050],["Medical Supplies",985],["Home Decor",968],["Sling Bags",968],["Outdoor Activities",957],["Eyewear",931],["Card & Board Games",929],["Tools, DIY & Outdoors",899],["Home Organisation",890],["Figures & Model Kits",869],["Nails",867],["Fine Jewellery",856],["Small Kitchen Appliances",855],["Hats & Caps",849],["Pet Accessories",831],["Sneakers",800],["Wallets & Cardholders",793],["Handbags",788],["Skincare",774],["Outerwear",766],["Pet Grooming & Hygiene",725],["Women's Hair Care",720],["Feminine Care",693],["Supplements",692],["Hairwear",684],["Travel Accessories",680],["Backpacks",665],["T-Shirts",655],["Bag Accessories",654],["Fashion Jewellery",649],["Aromatherapy",632],["Recovery & Protection",623],["Watches Accessories",601],["Fitness Equipment",593],["Women Sports Attire & Shoes",587],["Flats",577],["Socks & Tights",575],["Kids Apparel",573],["Lingerie & Sleepwear",562],["Collectibles",547],["Travel Bags & Backpacks",529],["Curve & Plus Size",497],["Kids Bags & Accessories",484],["Beddings",459],["Pants & Leggings",453],["Camera Accessories",445],["Computer Accessories",422],["Men Sports Attire & Shoes",380],["Sports Bags",359],["Bakery",356],["Lighting",355],["Slippers",346],["Sweaters & Cardigans",346],["Skirts",324],["Baby & Toddler Apparel",323],["Baby & Kids Shoes",312],["Car Accessories",312],["OTC Medications",307],["Baby Gear",300],["Catering",287],["Accessories",277],["Keyboard & Mice",272],["Crossbody & Shoulder Bags",270],["Shorts",249],["Sandals",236],["Maternity Care",219],["Digital Wearables",216],["Shoe Accessories",215],["Weight Management",211],["Swimming & Snorkelling",208],["Dresses",207],["Pet Healthcare",205],["Security & Surveillance",201],["Boots",195],["Gadgets",193],["Heels",188],["Denim",187],["Luggage Accessories",186],["Car Care",181],["Shorts & Bermudas",180],["Cycling",174],["Beauty Supplements",170],["Sandals & Flip-Flops",165],["Instant & Film Cameras",156],["Diapers & Potties",152],["Shirts",148],["Scarves & Gloves",142],["Furniture",141],["Tools & Small Appliances",141],["Printers & Imaging",141],["Audio",140],["Jackets & Coats",138],["Pants",136],["Jeans",136],["Fishing",131],["Matching sets",109],["Yoga Equipment",105],["Cooling & Heating",103],["Baby Safety",101],["Men's Wallet",97],["Food Nutrition",91],["Jewellery Accessories",86],["Playstation",84],["Xbox",74],["Team Sports Equipment",68],["Garment Care",67],["Gift Sets",65],["Clutches & Mini Bags",65],["Large Appliances",58],["Mobile Phones & Tablets",54],["Kid's Furniture",53],["Racket Sports Equipment",50],["Sports Nutrition",48],["Nintendo Switch",45],["Loafers",41],["Memory Cards",40],["Women's Watches",37],["Underwear",36],["Digital Cameras",35],["Car Electronics",35],["Jumpsuits & Playsuits",35],["Adult",34],["Car Replacement Parts",34],["Belts",32],["Components",31],["Beachwear",31],["Milk Formula (1 year+)",27],["Entertainment",27],["Dairy, Eggs & Chilled Food",26],["Transport & Travel",25],["Music Instruments",23],["Networking",19],["Boxing & Martial Arts Equipment",18],["Occasion wear",17],["Sexual Wellness",17],["Motorcycles & Scooters",17],["Totes",13],["Muslim Wear",13],["Car Oil & Fluids",12],["Infant Milk Formula",12],["Formal Shoes",11],["Traditional Wear",9],["PlayStation Vita & Portable",9],["Unisex Watches",8],["Luggage",8],["Senior Care",7],["Brogues & Oxford",7],["Action & Video Cameras",7],["Storage",7],["Scooters & Hoverboards",7],["Surveillance Cameras",6],["Men's Jewellery",6],["Maternity Wear",4],["Fragrances",4],["Retro & Microconsoles",4],["Services & Installation",4],["Wii & Wii U",3],["Laptops",3],["PC",3],["Monitors",2],["Services",2],["Occasion Wear",1],["Overseas Sim Cards",1],["TV Accessories",1],["Nintendo 3DS & 2DS",1],["Branded Bags",1],["Briefcases",1],["Gold And Silver Bars",1],["Couple Sets",1],["Activities & Events",1]]}},"ph":{"country":"ph","name":"Philippines","domain":"shopee.ph","currency":"PHP","supported":true,"filter":"locations=Overseas→Korea (5-sort merge)","collected":"2026-04-01T05:10:00.736Z","totalProducts":4603,"totalSellers":848,"categories":{"big":[["Health & Personal Care",1688],["Toys, Games & Collectibles",790],["Babies & Kids",426],["Pet Care",282],["Women's Apparel",270],["Women's Shoes",210],["Home & Living",173],["Makeup & Fragrances",149],["Hobbies & Stationery",113],["Women's Bags",103],["Groceries",89],["Men's Apparel",83],["Sports & Travel",73],["Men's Shoes",47],["Home Appliances",22],["Women Accessories",21],["Men's Bags & Accessories",21],["Gaming",16],["Motors",13],["Cameras",8],["Audio",4],["Laptops & Computers",2]],"mid":[["Celebrity Merchandise",641],["Suncare",473],["Hair Care",321],["Skin Care",252],["Slimming",223],["Whitening",193],["Pet Essentials",148],["Others",144],["Boards & Family Games",142],["Tees",119],["Bath & Skin Care",109],["Baby Detergent",84],["Pet Grooming Supplies",83],["Health & Safety",82],["Men's Grooming",75],["Sweater & Cardigans",66],["Face Makeup",64],["Sneakers",62],["Bath & Body",58],["Flats",57],["Writing Materials",48],["Books and Magazines",47],["Golf",45],["Glassware & Drinkware",45],["Heels",45],["Feeding & Nursing",44],["Dairy & Eggs",43],["Medical Supplies",42],["Health Supplements",35],["Bath",34],["Boots",34],["Fragrances",32],["Flip Flops",29],["Tote Bags",29],["Hand Warmers, Hot Water Bags & Ice Bags",28],["Hoodies & Sweatshirts",28],["Pants",27],["Jackets & Outerwear",26],["Gift Set & Hampers",26],["Diapers & Wipes",23],["Garment Care",22],["Men's Bags",21],["Pet Food & Treats",21],["Jeans",21],["Rain Gear",20],["Palettes & Makeup Sets",18],["Moms & Maternity",17],["Weather Protection",16],["Drawstrings",16],["Sexual Wellness",16],["Feeding",16],["Kitchenware",13],["Shoulder Bags",13],["Accessories",12],["Seasoning, Staple Foods & Baking Ingredients",12],["Sandals & Flip Flops",12],["Tops",11],["Backpacks",11],["Oils, Coolants, & Fluids",10],["Dinnerware",10],["Console Gaming",10],["Wallets & Pouches",9],["Shorts",9],["Home Maintenance",8],["Shoe Care & Accessories",8],["Superfoods & Healthy Foods",8],["Sinkware",8],["Collectibles",7],["Underwear",7],["Lingerie & Nightwear",7],["Nursery",7],["Socks & Stockings",6],["Jackets & Sweaters",6],["Socks",5],["Baby Gear",5],["Storage & Organization",4],["Home Decor",4],["Hats & Caps",4],["Pet Toys & Accessories",4],["Sets",4],["School & Office Supplies",3],["Eyewear",3],["Loafer & Boat Shoes",3],["Beddings",3],["Skirts",3],["Plus Size",2],["Outdoor & Garden",2],["Clutches",2],["Packaging & Wrapping",2],["Additional Accessories",2],["Lighting",2],["Home Audio & Speakers",2],["Car Care & Detailing",2],["Party Supplies",2],["Handbags",2],["Wedges & Platforms",2],["Litter & Toilet",2],["Watch & Jewelry Organizers",1],["Arts & Crafts",1],["Home Improvement",1],["Paper Supplies",1],["Bakeware",1],["Babies' Fashion",1],["Pet Clothing & Accessories",1],["Network Components",1],["Traditional Wear",1],["Belts & Scarves",1],["Moto Riding & Protective Gear",1],["Gloves",1],["Jumpsuits & Rompers",1],["Software",1],["Furniture",1],["Action Camera",1],["Formal",1],["Toys & Accessories",1],["Earphones, Headphones & Headsets",1],["Media Players",1]]}},"tw":{"meta":{"country":"tw","domain":"shopee.tw","currency":"TWD","totalProducts":62475,"totalSellers":2111,"apiCalls":2203,"apiFails":0,"categoriesCovered":"297/297","updatedAt":"2026-04-18T02:02:30.231Z"},"top50":[{"sid":229003803,"name":"VT COSMETICS 官方旗艦店","items":43,"rev":118265518,"sold":208079,"top":"【VT】BHA AHA CICA 去角質化妝水棉片 60片入 <官方旗艦店>"},{"sid":881779791,"name":"KMartU","items":61,"rev":51064241,"sold":50108,"top":"Foodaholic 舒緩面膜保濕/精華面膜/隨機 1 片"},{"sid":1031744434,"name":"Meditherapy 品牌旗艦店","items":21,"rev":46460720,"sold":74438,"top":"[MEDITHERAPY] Retinal Serum 抗老修護A醛精華 150ml - 適用臉部・身體溫和視黃醛"},{"sid":381343271,"name":"beautiseoul","items":158,"rev":45182266,"sold":135668,"top":"韓國 MEDIHEAL 面膜 1枚 積雪草 茶樹 膠原蛋白 玻尿酸 神經醯胺 維生素 玫瑰PDRN"},{"sid":99890218,"name":"Some By Mi 莎柏蜜 官方旗艦店","items":26,"rev":38379592,"sold":93080,"top":"[SOMEBYMI] 茶樹三酸30天奇蹟沐浴乳 (400ml)"},{"sid":1001256306,"name":"1plus1mallkv","items":45,"rev":38271575,"sold":47168,"top":"潤妮秀 Renecell  韓國最佳系列最優惠價格"},{"sid":161461216,"name":"COVERNAT_official","items":1220,"rev":37893851,"sold":32375,"top":"[COVERNAT]25SS 韓版短袖T恤 大學t 春季淨版白色T恤 打底衫 2-PACK（多色任選）"},{"sid":769808963,"name":"PHYTOTICS 必多提斯 官方旗艦店","items":16,"rev":37271276,"sold":21700,"top":"PHYTOTICS 小紅盒益生菌 藤黃果+專利益生菌必多提斯 韓國官方旗艦 【含牛奶】"},{"sid":224797857,"name":"Konny品牌旗艦店","items":22,"rev":33782204,"sold":46510,"top":"韓國Konny口水巾 可旋轉經典款(52款任選)_官方直送 #副食圍兜 #新生兒抗菌口水巾 #日常搭配 #嬰幼兒時尚"},{"sid":519474143,"name":"elago 官方旗艦店","items":234,"rev":32960806,"sold":65669,"top":"[elago] Premium Apple Pencil  Pro / 1&2代 保護套"},{"sid":519453926,"name":"OBgE台灣旗艦店|韓國直送","items":41,"rev":31721655,"sold":56239,"top":"[OBgE] Pore-ZERO 控油清爽防曬棒18g 清爽不油膩 ⚾品牌大使 瘦子 E.SO & 李多慧⚾"},{"sid":545141727,"name":"numbuzin 潤碧之茵 官方旗艦店","items":23,"rev":31487353,"sold":52113,"top":"numbuzin 3號 柔滑嫩膚神仙精華 50ml"},{"sid":850180309,"name":"verish_official.tw","items":42,"rev":30842923,"sold":28177,"top":"【Cool-Fit｜集中】 Verish輕量豐胸無鋼圈內衣"},{"sid":985100261,"name":"H'ar 官方旗艦店","items":16,"rev":30420406,"sold":25926,"top":"[H’ar 韓國官方] Dr. Ran 天然蛋白滋養洗髮精 500ml_髮絲強韌 蓬鬆 蛋白質護髮 韓國洗髮精"},{"sid":455367652,"name":"Koppas Shop","items":94,"rev":28966682,"sold":18346,"top":"2025 力曼 INCELLDERM 映晳美 活妍專科保養組+活妍奇肌霜 (Booster EX + Serum EX)"},{"sid":734200999,"name":"Pearl & Garnet Shop","items":102,"rev":25772059,"sold":61329,"top":"韓國 鍾根堂 LACTO-FIT 益生菌  幼兒/兒童/成人5x升級"},{"sid":276532583,"name":"MTS KOREA","items":59,"rev":24328783,"sold":37492,"top":"艾多美 益生菌10+ (2.5g X 120包/4盒) Probiotics"},{"sid":1370697857,"name":"Arencia 愛仁溪雅 官方旗艦店","items":32,"rev":20057727,"sold":48725,"top":"[0元加購] 潔面乳 15g | 綠色、玫瑰果、藍色 hyssop | 綠色 50g"},{"sid":1023354525,"name":"super_deal.tw","items":20,"rev":16665009,"sold":19394,"top":"Foodaholic 舒緩面膜保濕/面膜/日常護膚品"},{"sid":615877803,"name":"GAOGAO BEAUTY 韓國美妝專賣店","items":42,"rev":16626707,"sold":6951,"top":"HAIRSTRO 強化滋養頭皮噴霧 150ml"},{"sid":343489682,"name":"KOKO.kr","items":97,"rev":15700045,"sold":24111,"top":"日本製 HIOKI 勾錶 數位型交流鉤表 3280-10F/3280-70F/CT6280 with FREEBIES"},{"sid":826944506,"name":"INGA TW Official Store","items":1,"rev":15061500,"sold":10041,"top":"INGA 雲朵包 (5色) 化妝包"},{"sid":712099790,"name":"korean azoomatw","items":141,"rev":14437651,"sold":39612,"top":"[UBMOM] Signature 防回流 PPSU 吸管杯水壺 PPSU 200ml, 280ml 配件"},{"sid":298204644,"name":"花樣年華_","items":41,"rev":14411428,"sold":19380,"top":"韓國直送 Neoflam FIKA IH感應不沾塗層炒鍋（不含鍋蓋）系列 特價 不沾鍋 不沾平底鍋 不沾中式炒鍋"},{"sid":1237220319,"name":"niceghostclub Korea Store","items":250,"rev":13538855,"sold":8802,"top":"[niceghostclub] 3star Logo 拉鍊連帽衫_帽踢_男女共穿_韓國風格"},{"sid":1432604238,"name":"Cellology 台灣旗艦店","items":3,"rev":13309433,"sold":4128,"top":"【Cellology】BLUE ERASER 湛藍膠囊水凝霜 50ml"},{"sid":432885341,"name":"Ringke Original","items":545,"rev":12621867,"sold":25164,"top":"Ringke Dual Easy Wing Film 適用於 Galaxy S23 Ultra 屏幕保護膜透明輕巧"},{"sid":745542436,"name":"market_centre","items":88,"rev":12497181,"sold":25514,"top":"[MEDION] Lacto Remedy 女士內部護理凝膠 1.8g 20p"},{"sid":375786405,"name":"正韓代購siaoyitrading","items":48,"rev":11771661,"sold":15273,"top":"韓國直送NEOFLAM FIKA 系列 特價 不沾鍋 不沾平底鍋 不沾中式炒鍋 雙耳湯鍋 燉鍋 圓形方形煎盤"},{"sid":706163308,"name":"MAHAGRID Official Store 台灣官方旗艦店","items":218,"rev":11473761,"sold":10659,"top":"[MAHAGRID]  基本款Logo短袖T恤_素T_男女共穿_情侶款BASIC LOGO TEE"},{"sid":857110170,"name":"pinklove.tw","items":81,"rev":11098374,"sold":44677,"top":"[Chong Kun Dang] *升級* Lacto Fit 5X 益生菌 LactoFit Gold 韓國 2 g"},{"sid":739713542,"name":"BEAUTY LOOK","items":106,"rev":10470346,"sold":32324,"top":"OLIVEYOUNG代購 MEDIHEAL 美迪惠爾必備面膜 積雪草 茶樹 膠原蛋白 玫瑰 韓國直送"},{"sid":1112518050,"name":"ilso一蘇品牌旗艦店","items":9,"rev":10330315,"sold":19913,"top":"【ilso 官方旗艦店】溫和舒緩粉刺導出液+化妝棉"},{"sid":1201259391,"name":"Beauty of Joseon 官方旗艦店","items":15,"rev":9676671,"sold":25252,"top":"[Beauty of Joseon] 大米萃取潤澤防曬霜 SPF50+ PA++++ (50ml)"},{"sid":219162204,"name":"JULYME 品牌官方旗艦店","items":15,"rev":8802898,"sold":14408,"top":"[JULYME韓國]  免沖洗香水護髮膜 150ml #受損髮推薦 #阻斷熱損傷 #護髮 #集中修護"},{"sid":125308669,"name":"KPOP MERCH","items":257,"rev":8787328,"sold":10048,"top":"SEVENTEEN - MINITEEN Magnet Plush Keyring"},{"sid":427502111,"name":"K-Bowling Pro Shop","items":163,"rev":8389258,"sold":10574,"top":"【買5送1】Xtreme Fortius 保齡球拇指指背貼"},{"sid":1243235933,"name":"JY RETAIL KOREA","items":12,"rev":8019509,"sold":5852,"top":"VODANA Glam Wave 大捲電棒 32/36/40mm 韓系捲髮器 捲髮棒"},{"sid":1525497849,"name":"gloryving","items":35,"rev":8000678,"sold":17,"top":"(韓國發貨) 榮耀隨機禮物"},{"sid":1437735105,"name":"wellpeak","items":63,"rev":7703750,"sold":22205,"top":"艾多美 洗面乳 150ml : Atomy Foam Cleanser"},{"sid":114043346,"name":"GRAFEN 韓國品牌官方旗艦店","items":20,"rev":7459448,"sold":16019,"top":"[GRAFEN韓國] [No.1洗頭刷] 頭皮按摩洗髮刷 [紅/白] #洗頭不費力 #頭皮按摩梳 #洗頭按摩"},{"sid":638774568,"name":"make_urday","items":77,"rev":7343920,"sold":12841,"top":"[atojet] 淋浴頭、頭過濾器 3P + 身體過濾器 3P"},{"sid":561617075,"name":"ThingsKorea21","items":113,"rev":6793870,"sold":7524,"top":"免運 現貨 韓國 高麗紅蔘精6年根紅蔘濃縮液10g*100包/散装"},{"sid":359478660,"name":"moni korea","items":76,"rev":6728760,"sold":9643,"top":"[Daelim Bath] 韓國直郵 正品 D clean 替換裝濾芯大容量 12個 kakao蓮蓬頭 costco"},{"sid":172194390,"name":"raum 韓國品牌旗艦店","items":19,"rev":6690928,"sold":14605,"top":"[BANANAL][Perfumed] 韓國胺基酸香氛護理洗髮精 (500ml)_韓國官方直送"},{"sid":468333335,"name":"heregoing","items":196,"rev":6253762,"sold":13455,"top":"[韓國]Dongkook Elina C 維生素 C + 維生素 D 120 包 4 個月高含量粉末維生素/韓國發貨✈️"},{"sid":1036302574,"name":"PiGEE.TW","items":208,"rev":6191882,"sold":15393,"top":"NEWJEANS - 1ST EP [ NEW JEANS ] Bluebook Ver."},{"sid":877715885,"name":"AESTURA Official Store","items":8,"rev":6121560,"sold":5999,"top":"AESTURA 璦絲特蘭每日保濕柔護細噴霧 120ml l 韓國官方直送"},{"sid":1536623398,"name":"SeasonTree","items":84,"rev":5734696,"sold":20155,"top":"[Mediheal] Essential 面膜單片 – 舒緩 / 保濕 / 緊緻 / 亮白｜韓國直送"},{"sid":965543178,"name":"Market Heidi","items":159,"rev":5630975,"sold":16446,"top":"韓國 🇰🇷 Hetras 芒果籽黃油香水護手霜 50ml x 5ea"}]},"my":{"country":"my","name":"Malaysia","domain":"shopee.com.my","currency":"MYR","supported":true,"filter":"SG-sellers+brands+Overseas→Korea","collected":"2026-04-01T10:33:22.963Z","totalProducts":182,"totalSellers":95,"apiCalls":3154,"apiFails":0,"elapsed":"64min","categories":{"big":[["keyword",182]],"mid":[]}},"th":{"updated":"2026-04-01T17:33:50.770Z","version":"v6-emergency","totalProducts":3419,"totalSellers":1352,"totalRevenue":1466568357,"totalSold":21843919}}
+{
+  "sg": {
+    "country": "sg",
+    "name": "Singapore",
+    "domain": "shopee.sg",
+    "currency": "SGD",
+    "supported": true,
+    "filter": "locations=Korea (5-sort merge)",
+    "collected": "2026-03-31T03:46:26.572Z",
+    "totalProducts": 70070,
+    "totalSellers": 1888,
+    "categories": {
+      "big": [
+        [
+          "Home & Living",
+          9232
+        ],
+        [
+          "Beauty & Personal Care",
+          9045
+        ],
+        [
+          "Jewellery & Accessories",
+          5687
+        ],
+        [
+          "Women's Apparel",
+          5167
+        ],
+        [
+          "Hobbies & Books",
+          4855
+        ],
+        [
+          "Sports & Outdoors",
+          4365
+        ],
+        [
+          "Toys, Kids & Babies",
+          4342
+        ],
+        [
+          "Food & Beverages",
+          4162
+        ],
+        [
+          "Women's Bags",
+          3907
+        ],
+        [
+          "Health & Wellness",
+          3122
+        ],
+        [
+          "Women's Shoes",
+          2202
+        ],
+        [
+          "Pet Supplies",
+          1800
+        ],
+        [
+          "Men's Wear",
+          1789
+        ],
+        [
+          "Mobile & Gadgets",
+          1772
+        ],
+        [
+          "Kids Fashion",
+          1705
+        ],
+        [
+          "Travel & Luggage",
+          1403
+        ],
+        [
+          "Home Appliances",
+          1326
+        ],
+        [
+          "Computers & Peripherals",
+          901
+        ],
+        [
+          "Cameras & Drones",
+          649
+        ],
+        [
+          "Watches",
+          647
+        ],
+        [
+          "Men's Shoes",
+          603
+        ],
+        [
+          "Automotive",
+          597
+        ],
+        [
+          "Men's Bags",
+          504
+        ],
+        [
+          "Video Games",
+          223
+        ],
+        [
+          "Miscellaneous",
+          34
+        ],
+        [
+          "Dining, Travel & Services",
+          31
+        ]
+      ],
+      "mid": [
+        [
+          "Others",
+          1523
+        ],
+        [
+          "Music, Movies & Games",
+          1291
+        ],
+        [
+          "Housekeeping",
+          1229
+        ],
+        [
+          "Kitchen & Dining",
+          1220
+        ],
+        [
+          "Snacks & Sweets",
+          1202
+        ],
+        [
+          "Stationery & Supplies",
+          1192
+        ],
+        [
+          "Beauty Devices & Tools",
+          1170
+        ],
+        [
+          "Feeding & Nursing",
+          1169
+        ],
+        [
+          "Beverages",
+          1158
+        ],
+        [
+          "Bath & Body",
+          1153
+        ],
+        [
+          "Oral Care",
+          1140
+        ],
+        [
+          "Makeup",
+          1131
+        ],
+        [
+          "Tops",
+          1131
+        ],
+        [
+          "Food Staples",
+          1129
+        ],
+        [
+          "Toys",
+          1118
+        ],
+        [
+          "Mobile Accessories",
+          1116
+        ],
+        [
+          "Men's Grooming",
+          1107
+        ],
+        [
+          "Books",
+          1105
+        ],
+        [
+          "Bath & Baby Care",
+          1081
+        ],
+        [
+          "Bathroom",
+          1050
+        ],
+        [
+          "Key Chains",
+          1050
+        ],
+        [
+          "Medical Supplies",
+          985
+        ],
+        [
+          "Home Decor",
+          968
+        ],
+        [
+          "Sling Bags",
+          968
+        ],
+        [
+          "Outdoor Activities",
+          957
+        ],
+        [
+          "Eyewear",
+          931
+        ],
+        [
+          "Card & Board Games",
+          929
+        ],
+        [
+          "Tools, DIY & Outdoors",
+          899
+        ],
+        [
+          "Home Organisation",
+          890
+        ],
+        [
+          "Figures & Model Kits",
+          869
+        ],
+        [
+          "Nails",
+          867
+        ],
+        [
+          "Fine Jewellery",
+          856
+        ],
+        [
+          "Small Kitchen Appliances",
+          855
+        ],
+        [
+          "Hats & Caps",
+          849
+        ],
+        [
+          "Pet Accessories",
+          831
+        ],
+        [
+          "Sneakers",
+          800
+        ],
+        [
+          "Wallets & Cardholders",
+          793
+        ],
+        [
+          "Handbags",
+          788
+        ],
+        [
+          "Skincare",
+          774
+        ],
+        [
+          "Outerwear",
+          766
+        ],
+        [
+          "Pet Grooming & Hygiene",
+          725
+        ],
+        [
+          "Women's Hair Care",
+          720
+        ],
+        [
+          "Feminine Care",
+          693
+        ],
+        [
+          "Supplements",
+          692
+        ],
+        [
+          "Hairwear",
+          684
+        ],
+        [
+          "Travel Accessories",
+          680
+        ],
+        [
+          "Backpacks",
+          665
+        ],
+        [
+          "T-Shirts",
+          655
+        ],
+        [
+          "Bag Accessories",
+          654
+        ],
+        [
+          "Fashion Jewellery",
+          649
+        ],
+        [
+          "Aromatherapy",
+          632
+        ],
+        [
+          "Recovery & Protection",
+          623
+        ],
+        [
+          "Watches Accessories",
+          601
+        ],
+        [
+          "Fitness Equipment",
+          593
+        ],
+        [
+          "Women Sports Attire & Shoes",
+          587
+        ],
+        [
+          "Flats",
+          577
+        ],
+        [
+          "Socks & Tights",
+          575
+        ],
+        [
+          "Kids Apparel",
+          573
+        ],
+        [
+          "Lingerie & Sleepwear",
+          562
+        ],
+        [
+          "Collectibles",
+          547
+        ],
+        [
+          "Travel Bags & Backpacks",
+          529
+        ],
+        [
+          "Curve & Plus Size",
+          497
+        ],
+        [
+          "Kids Bags & Accessories",
+          484
+        ],
+        [
+          "Beddings",
+          459
+        ],
+        [
+          "Pants & Leggings",
+          453
+        ],
+        [
+          "Camera Accessories",
+          445
+        ],
+        [
+          "Computer Accessories",
+          422
+        ],
+        [
+          "Men Sports Attire & Shoes",
+          380
+        ],
+        [
+          "Sports Bags",
+          359
+        ],
+        [
+          "Bakery",
+          356
+        ],
+        [
+          "Lighting",
+          355
+        ],
+        [
+          "Slippers",
+          346
+        ],
+        [
+          "Sweaters & Cardigans",
+          346
+        ],
+        [
+          "Skirts",
+          324
+        ],
+        [
+          "Baby & Toddler Apparel",
+          323
+        ],
+        [
+          "Baby & Kids Shoes",
+          312
+        ],
+        [
+          "Car Accessories",
+          312
+        ],
+        [
+          "OTC Medications",
+          307
+        ],
+        [
+          "Baby Gear",
+          300
+        ],
+        [
+          "Catering",
+          287
+        ],
+        [
+          "Accessories",
+          277
+        ],
+        [
+          "Keyboard & Mice",
+          272
+        ],
+        [
+          "Crossbody & Shoulder Bags",
+          270
+        ],
+        [
+          "Shorts",
+          249
+        ],
+        [
+          "Sandals",
+          236
+        ],
+        [
+          "Maternity Care",
+          219
+        ],
+        [
+          "Digital Wearables",
+          216
+        ],
+        [
+          "Shoe Accessories",
+          215
+        ],
+        [
+          "Weight Management",
+          211
+        ],
+        [
+          "Swimming & Snorkelling",
+          208
+        ],
+        [
+          "Dresses",
+          207
+        ],
+        [
+          "Pet Healthcare",
+          205
+        ],
+        [
+          "Security & Surveillance",
+          201
+        ],
+        [
+          "Boots",
+          195
+        ],
+        [
+          "Gadgets",
+          193
+        ],
+        [
+          "Heels",
+          188
+        ],
+        [
+          "Denim",
+          187
+        ],
+        [
+          "Luggage Accessories",
+          186
+        ],
+        [
+          "Car Care",
+          181
+        ],
+        [
+          "Shorts & Bermudas",
+          180
+        ],
+        [
+          "Cycling",
+          174
+        ],
+        [
+          "Beauty Supplements",
+          170
+        ],
+        [
+          "Sandals & Flip-Flops",
+          165
+        ],
+        [
+          "Instant & Film Cameras",
+          156
+        ],
+        [
+          "Diapers & Potties",
+          152
+        ],
+        [
+          "Shirts",
+          148
+        ],
+        [
+          "Scarves & Gloves",
+          142
+        ],
+        [
+          "Furniture",
+          141
+        ],
+        [
+          "Tools & Small Appliances",
+          141
+        ],
+        [
+          "Printers & Imaging",
+          141
+        ],
+        [
+          "Audio",
+          140
+        ],
+        [
+          "Jackets & Coats",
+          138
+        ],
+        [
+          "Pants",
+          136
+        ],
+        [
+          "Jeans",
+          136
+        ],
+        [
+          "Fishing",
+          131
+        ],
+        [
+          "Matching sets",
+          109
+        ],
+        [
+          "Yoga Equipment",
+          105
+        ],
+        [
+          "Cooling & Heating",
+          103
+        ],
+        [
+          "Baby Safety",
+          101
+        ],
+        [
+          "Men's Wallet",
+          97
+        ],
+        [
+          "Food Nutrition",
+          91
+        ],
+        [
+          "Jewellery Accessories",
+          86
+        ],
+        [
+          "Playstation",
+          84
+        ],
+        [
+          "Xbox",
+          74
+        ],
+        [
+          "Team Sports Equipment",
+          68
+        ],
+        [
+          "Garment Care",
+          67
+        ],
+        [
+          "Gift Sets",
+          65
+        ],
+        [
+          "Clutches & Mini Bags",
+          65
+        ],
+        [
+          "Large Appliances",
+          58
+        ],
+        [
+          "Mobile Phones & Tablets",
+          54
+        ],
+        [
+          "Kid's Furniture",
+          53
+        ],
+        [
+          "Racket Sports Equipment",
+          50
+        ],
+        [
+          "Sports Nutrition",
+          48
+        ],
+        [
+          "Nintendo Switch",
+          45
+        ],
+        [
+          "Loafers",
+          41
+        ],
+        [
+          "Memory Cards",
+          40
+        ],
+        [
+          "Women's Watches",
+          37
+        ],
+        [
+          "Underwear",
+          36
+        ],
+        [
+          "Digital Cameras",
+          35
+        ],
+        [
+          "Car Electronics",
+          35
+        ],
+        [
+          "Jumpsuits & Playsuits",
+          35
+        ],
+        [
+          "Adult",
+          34
+        ],
+        [
+          "Car Replacement Parts",
+          34
+        ],
+        [
+          "Belts",
+          32
+        ],
+        [
+          "Components",
+          31
+        ],
+        [
+          "Beachwear",
+          31
+        ],
+        [
+          "Milk Formula (1 year+)",
+          27
+        ],
+        [
+          "Entertainment",
+          27
+        ],
+        [
+          "Dairy, Eggs & Chilled Food",
+          26
+        ],
+        [
+          "Transport & Travel",
+          25
+        ],
+        [
+          "Music Instruments",
+          23
+        ],
+        [
+          "Networking",
+          19
+        ],
+        [
+          "Boxing & Martial Arts Equipment",
+          18
+        ],
+        [
+          "Occasion wear",
+          17
+        ],
+        [
+          "Sexual Wellness",
+          17
+        ],
+        [
+          "Motorcycles & Scooters",
+          17
+        ],
+        [
+          "Totes",
+          13
+        ],
+        [
+          "Muslim Wear",
+          13
+        ],
+        [
+          "Car Oil & Fluids",
+          12
+        ],
+        [
+          "Infant Milk Formula",
+          12
+        ],
+        [
+          "Formal Shoes",
+          11
+        ],
+        [
+          "Traditional Wear",
+          9
+        ],
+        [
+          "PlayStation Vita & Portable",
+          9
+        ],
+        [
+          "Unisex Watches",
+          8
+        ],
+        [
+          "Luggage",
+          8
+        ],
+        [
+          "Senior Care",
+          7
+        ],
+        [
+          "Brogues & Oxford",
+          7
+        ],
+        [
+          "Action & Video Cameras",
+          7
+        ],
+        [
+          "Storage",
+          7
+        ],
+        [
+          "Scooters & Hoverboards",
+          7
+        ],
+        [
+          "Surveillance Cameras",
+          6
+        ],
+        [
+          "Men's Jewellery",
+          6
+        ],
+        [
+          "Maternity Wear",
+          4
+        ],
+        [
+          "Fragrances",
+          4
+        ],
+        [
+          "Retro & Microconsoles",
+          4
+        ],
+        [
+          "Services & Installation",
+          4
+        ],
+        [
+          "Wii & Wii U",
+          3
+        ],
+        [
+          "Laptops",
+          3
+        ],
+        [
+          "PC",
+          3
+        ],
+        [
+          "Monitors",
+          2
+        ],
+        [
+          "Services",
+          2
+        ],
+        [
+          "Occasion Wear",
+          1
+        ],
+        [
+          "Overseas Sim Cards",
+          1
+        ],
+        [
+          "TV Accessories",
+          1
+        ],
+        [
+          "Nintendo 3DS & 2DS",
+          1
+        ],
+        [
+          "Branded Bags",
+          1
+        ],
+        [
+          "Briefcases",
+          1
+        ],
+        [
+          "Gold And Silver Bars",
+          1
+        ],
+        [
+          "Couple Sets",
+          1
+        ],
+        [
+          "Activities & Events",
+          1
+        ]
+      ]
+    }
+  },
+  "ph": {
+    "country": "ph",
+    "name": "Philippines",
+    "domain": "shopee.ph",
+    "currency": "PHP",
+    "supported": true,
+    "filter": "locations=Overseas→Korea (5-sort merge)",
+    "collected": "2026-04-01T05:10:00.736Z",
+    "totalProducts": 4603,
+    "totalSellers": 848,
+    "categories": {
+      "big": [
+        [
+          "Health & Personal Care",
+          1688
+        ],
+        [
+          "Toys, Games & Collectibles",
+          790
+        ],
+        [
+          "Babies & Kids",
+          426
+        ],
+        [
+          "Pet Care",
+          282
+        ],
+        [
+          "Women's Apparel",
+          270
+        ],
+        [
+          "Women's Shoes",
+          210
+        ],
+        [
+          "Home & Living",
+          173
+        ],
+        [
+          "Makeup & Fragrances",
+          149
+        ],
+        [
+          "Hobbies & Stationery",
+          113
+        ],
+        [
+          "Women's Bags",
+          103
+        ],
+        [
+          "Groceries",
+          89
+        ],
+        [
+          "Men's Apparel",
+          83
+        ],
+        [
+          "Sports & Travel",
+          73
+        ],
+        [
+          "Men's Shoes",
+          47
+        ],
+        [
+          "Home Appliances",
+          22
+        ],
+        [
+          "Women Accessories",
+          21
+        ],
+        [
+          "Men's Bags & Accessories",
+          21
+        ],
+        [
+          "Gaming",
+          16
+        ],
+        [
+          "Motors",
+          13
+        ],
+        [
+          "Cameras",
+          8
+        ],
+        [
+          "Audio",
+          4
+        ],
+        [
+          "Laptops & Computers",
+          2
+        ]
+      ],
+      "mid": [
+        [
+          "Celebrity Merchandise",
+          641
+        ],
+        [
+          "Suncare",
+          473
+        ],
+        [
+          "Hair Care",
+          321
+        ],
+        [
+          "Skin Care",
+          252
+        ],
+        [
+          "Slimming",
+          223
+        ],
+        [
+          "Whitening",
+          193
+        ],
+        [
+          "Pet Essentials",
+          148
+        ],
+        [
+          "Others",
+          144
+        ],
+        [
+          "Boards & Family Games",
+          142
+        ],
+        [
+          "Tees",
+          119
+        ],
+        [
+          "Bath & Skin Care",
+          109
+        ],
+        [
+          "Baby Detergent",
+          84
+        ],
+        [
+          "Pet Grooming Supplies",
+          83
+        ],
+        [
+          "Health & Safety",
+          82
+        ],
+        [
+          "Men's Grooming",
+          75
+        ],
+        [
+          "Sweater & Cardigans",
+          66
+        ],
+        [
+          "Face Makeup",
+          64
+        ],
+        [
+          "Sneakers",
+          62
+        ],
+        [
+          "Bath & Body",
+          58
+        ],
+        [
+          "Flats",
+          57
+        ],
+        [
+          "Writing Materials",
+          48
+        ],
+        [
+          "Books and Magazines",
+          47
+        ],
+        [
+          "Golf",
+          45
+        ],
+        [
+          "Glassware & Drinkware",
+          45
+        ],
+        [
+          "Heels",
+          45
+        ],
+        [
+          "Feeding & Nursing",
+          44
+        ],
+        [
+          "Dairy & Eggs",
+          43
+        ],
+        [
+          "Medical Supplies",
+          42
+        ],
+        [
+          "Health Supplements",
+          35
+        ],
+        [
+          "Bath",
+          34
+        ],
+        [
+          "Boots",
+          34
+        ],
+        [
+          "Fragrances",
+          32
+        ],
+        [
+          "Flip Flops",
+          29
+        ],
+        [
+          "Tote Bags",
+          29
+        ],
+        [
+          "Hand Warmers, Hot Water Bags & Ice Bags",
+          28
+        ],
+        [
+          "Hoodies & Sweatshirts",
+          28
+        ],
+        [
+          "Pants",
+          27
+        ],
+        [
+          "Jackets & Outerwear",
+          26
+        ],
+        [
+          "Gift Set & Hampers",
+          26
+        ],
+        [
+          "Diapers & Wipes",
+          23
+        ],
+        [
+          "Garment Care",
+          22
+        ],
+        [
+          "Men's Bags",
+          21
+        ],
+        [
+          "Pet Food & Treats",
+          21
+        ],
+        [
+          "Jeans",
+          21
+        ],
+        [
+          "Rain Gear",
+          20
+        ],
+        [
+          "Palettes & Makeup Sets",
+          18
+        ],
+        [
+          "Moms & Maternity",
+          17
+        ],
+        [
+          "Weather Protection",
+          16
+        ],
+        [
+          "Drawstrings",
+          16
+        ],
+        [
+          "Sexual Wellness",
+          16
+        ],
+        [
+          "Feeding",
+          16
+        ],
+        [
+          "Kitchenware",
+          13
+        ],
+        [
+          "Shoulder Bags",
+          13
+        ],
+        [
+          "Accessories",
+          12
+        ],
+        [
+          "Seasoning, Staple Foods & Baking Ingredients",
+          12
+        ],
+        [
+          "Sandals & Flip Flops",
+          12
+        ],
+        [
+          "Tops",
+          11
+        ],
+        [
+          "Backpacks",
+          11
+        ],
+        [
+          "Oils, Coolants, & Fluids",
+          10
+        ],
+        [
+          "Dinnerware",
+          10
+        ],
+        [
+          "Console Gaming",
+          10
+        ],
+        [
+          "Wallets & Pouches",
+          9
+        ],
+        [
+          "Shorts",
+          9
+        ],
+        [
+          "Home Maintenance",
+          8
+        ],
+        [
+          "Shoe Care & Accessories",
+          8
+        ],
+        [
+          "Superfoods & Healthy Foods",
+          8
+        ],
+        [
+          "Sinkware",
+          8
+        ],
+        [
+          "Collectibles",
+          7
+        ],
+        [
+          "Underwear",
+          7
+        ],
+        [
+          "Lingerie & Nightwear",
+          7
+        ],
+        [
+          "Nursery",
+          7
+        ],
+        [
+          "Socks & Stockings",
+          6
+        ],
+        [
+          "Jackets & Sweaters",
+          6
+        ],
+        [
+          "Socks",
+          5
+        ],
+        [
+          "Baby Gear",
+          5
+        ],
+        [
+          "Storage & Organization",
+          4
+        ],
+        [
+          "Home Decor",
+          4
+        ],
+        [
+          "Hats & Caps",
+          4
+        ],
+        [
+          "Pet Toys & Accessories",
+          4
+        ],
+        [
+          "Sets",
+          4
+        ],
+        [
+          "School & Office Supplies",
+          3
+        ],
+        [
+          "Eyewear",
+          3
+        ],
+        [
+          "Loafer & Boat Shoes",
+          3
+        ],
+        [
+          "Beddings",
+          3
+        ],
+        [
+          "Skirts",
+          3
+        ],
+        [
+          "Plus Size",
+          2
+        ],
+        [
+          "Outdoor & Garden",
+          2
+        ],
+        [
+          "Clutches",
+          2
+        ],
+        [
+          "Packaging & Wrapping",
+          2
+        ],
+        [
+          "Additional Accessories",
+          2
+        ],
+        [
+          "Lighting",
+          2
+        ],
+        [
+          "Home Audio & Speakers",
+          2
+        ],
+        [
+          "Car Care & Detailing",
+          2
+        ],
+        [
+          "Party Supplies",
+          2
+        ],
+        [
+          "Handbags",
+          2
+        ],
+        [
+          "Wedges & Platforms",
+          2
+        ],
+        [
+          "Litter & Toilet",
+          2
+        ],
+        [
+          "Watch & Jewelry Organizers",
+          1
+        ],
+        [
+          "Arts & Crafts",
+          1
+        ],
+        [
+          "Home Improvement",
+          1
+        ],
+        [
+          "Paper Supplies",
+          1
+        ],
+        [
+          "Bakeware",
+          1
+        ],
+        [
+          "Babies' Fashion",
+          1
+        ],
+        [
+          "Pet Clothing & Accessories",
+          1
+        ],
+        [
+          "Network Components",
+          1
+        ],
+        [
+          "Traditional Wear",
+          1
+        ],
+        [
+          "Belts & Scarves",
+          1
+        ],
+        [
+          "Moto Riding & Protective Gear",
+          1
+        ],
+        [
+          "Gloves",
+          1
+        ],
+        [
+          "Jumpsuits & Rompers",
+          1
+        ],
+        [
+          "Software",
+          1
+        ],
+        [
+          "Furniture",
+          1
+        ],
+        [
+          "Action Camera",
+          1
+        ],
+        [
+          "Formal",
+          1
+        ],
+        [
+          "Toys & Accessories",
+          1
+        ],
+        [
+          "Earphones, Headphones & Headsets",
+          1
+        ],
+        [
+          "Media Players",
+          1
+        ]
+      ]
+    }
+  },
+  "tw": {
+    "country": "tw",
+    "name": "Taiwan",
+    "domain": "shopee.tw",
+    "currency": "TWD",
+    "supported": true,
+    "filter": "Korea shipping filter 18,19",
+    "shippingFilter": "18,19",
+    "version": "v7-korea-shipping-filter",
+    "collected": "2026-05-11T19:33:06.797Z",
+    "updatedAt": "2026-05-11T19:33:06.797Z",
+    "totalProducts": 33178,
+    "totalSellers": 1439,
+    "apiCalls": 179,
+    "apiFails": 2,
+    "status": "daily_limit",
+    "phase": "shop_scan",
+    "taskIndex": 344,
+    "tasksTotal": 344,
+    "shopIndex": 0,
+    "sourceFile": "tw_daily_limit_33178_1778527987267.json",
+    "categories": {
+      "big": [
+        [
+          "기타",
+          15441
+        ],
+        [
+          "居家生活",
+          3739
+        ],
+        [
+          "美妝保養",
+          3491
+        ],
+        [
+          "女生衣著",
+          3433
+        ],
+        [
+          "女生配件/黃金",
+          2724
+        ],
+        [
+          "男生衣著",
+          1618
+        ],
+        [
+          "保健、護理",
+          1315
+        ],
+        [
+          "寵物",
+          1012
+        ],
+        [
+          "嬰幼童與母親",
+          404
+        ],
+        [
+          "書籍及雜誌期刊",
+          1
+        ]
+      ],
+      "mid": [
+        [
+          "기타",
+          16336
+        ],
+        [
+          "其他",
+          571
+        ],
+        [
+          "外套",
+          489
+        ],
+        [
+          "居家香氛",
+          464
+        ],
+        [
+          "襯衫",
+          413
+        ],
+        [
+          "專櫃彩妝",
+          405
+        ],
+        [
+          "嬰幼童食品與保健",
+          404
+        ],
+        [
+          "收納",
+          388
+        ],
+        [
+          "寵物用品",
+          375
+        ],
+        [
+          "長褲",
+          369
+        ],
+        [
+          "日用品",
+          357
+        ],
+        [
+          "短褲",
+          357
+        ],
+        [
+          "居家裝飾",
+          354
+        ],
+        [
+          "開架流行彩妝",
+          342
+        ],
+        [
+          "內睡衣",
+          327
+        ],
+        [
+          "五金修繕",
+          311
+        ],
+        [
+          "帽T/大學T",
+          309
+        ],
+        [
+          "浴室",
+          300
+        ],
+        [
+          "專櫃清潔保養",
+          299
+        ],
+        [
+          "吊飾/鑰匙圈",
+          298
+        ],
+        [
+          "文具",
+          298
+        ],
+        [
+          "美容工具",
+          295
+        ],
+        [
+          "日常護理",
+          295
+        ],
+        [
+          "大尺碼",
+          291
+        ],
+        [
+          "身體清潔、保養",
+          289
+        ],
+        [
+          "養顏美容食品",
+          284
+        ],
+        [
+          "手錶\b",
+          273
+        ],
+        [
+          "T恤",
+          267
+        ],
+        [
+          "襪子",
+          267
+        ],
+        [
+          "針織/毛衣",
+          250
+        ],
+        [
+          "順暢保養食品",
+          245
+        ],
+        [
+          "帽子",
+          242
+        ],
+        [
+          "男士保養",
+          240
+        ],
+        [
+          "項鍊",
+          237
+        ],
+        [
+          "水壺、杯子",
+          235
+        ],
+        [
+          "美髮護理",
+          234
+        ],
+        [
+          "樂齡居家",
+          234
+        ],
+        [
+          "寢具",
+          231
+        ],
+        [
+          "手環",
+          225
+        ],
+        [
+          "手足保養、美甲",
+          210
+        ],
+        [
+          "私密清潔保養",
+          210
+        ],
+        [
+          "小可愛/背心",
+          207
+        ],
+        [
+          "醫美清潔保養",
+          198
+        ],
+        [
+          "帽T、大學T",
+          195
+        ],
+        [
+          "餐廚",
+          180
+        ],
+        [
+          "外出用品",
+          180
+        ],
+        [
+          "燈具",
+          178
+        ],
+        [
+          "國際精品配件",
+          170
+        ],
+        [
+          "寵物玩具",
+          166
+        ],
+        [
+          "髮飾",
+          165
+        ],
+        [
+          "寵物服飾",
+          164
+        ],
+        [
+          "洋裝",
+          163
+        ],
+        [
+          "香水、香氛",
+          162
+        ],
+        [
+          "丹寧牛仔",
+          162
+        ],
+        [
+          "戒指",
+          146
+        ],
+        [
+          "電動工具",
+          143
+        ],
+        [
+          "裙子",
+          130
+        ],
+        [
+          "耳環",
+          128
+        ],
+        [
+          "開架流行清潔保養",
+          125
+        ],
+        [
+          "居安防護",
+          125
+        ],
+        [
+          "黃金/K金/鉑金",
+          123
+        ],
+        [
+          "眼鏡",
+          118
+        ],
+        [
+          "圍巾",
+          114
+        ],
+        [
+          "男性內著",
+          106
+        ],
+        [
+          "Polo衫",
+          92
+        ],
+        [
+          "節慶、派對用品",
+          82
+        ],
+        [
+          "多件式套裝",
+          78
+        ],
+        [
+          "泳裝/比基尼",
+          78
+        ],
+        [
+          "珠寶/玉石",
+          65
+        ],
+        [
+          "寵物營養保健品",
+          65
+        ],
+        [
+          "毛衣、針織衫",
+          64
+        ],
+        [
+          "綜合機能保健",
+          64
+        ],
+        [
+          "女性保健食品",
+          52
+        ],
+        [
+          "園藝植作",
+          36
+        ],
+        [
+          "背心",
+          32
+        ],
+        [
+          "上衣類",
+          31
+        ],
+        [
+          "傢俱",
+          24
+        ],
+        [
+          "其他保健食品、營養品",
+          23
+        ],
+        [
+          "腳鍊",
+          7
+        ],
+        [
+          "鑽石",
+          5
+        ],
+        [
+          "鼠兔相關",
+          4
+        ],
+        [
+          "水族相關",
+          3
+        ],
+        [
+          "男性保健食品",
+          3
+        ],
+        [
+          "沙發、沙發床",
+          1
+        ],
+        [
+          "醫療保健書籍",
+          1
+        ]
+      ]
+    }
+  },
+  "my": {
+    "country": "my",
+    "name": "Malaysia",
+    "domain": "shopee.com.my",
+    "currency": "MYR",
+    "supported": true,
+    "filter": "SG-sellers+brands+Overseas→Korea",
+    "collected": "2026-04-01T10:33:22.963Z",
+    "totalProducts": 182,
+    "totalSellers": 95,
+    "apiCalls": 3154,
+    "apiFails": 0,
+    "elapsed": "64min",
+    "categories": {
+      "big": [
+        [
+          "keyword",
+          182
+        ]
+      ],
+      "mid": []
+    }
+  },
+  "th": {
+    "updated": "2026-04-01T17:33:50.770Z",
+    "version": "v6-emergency",
+    "totalProducts": 3419,
+    "totalSellers": 1352,
+    "totalRevenue": 1466568357,
+    "totalSold": 21843919
+  }
+}
